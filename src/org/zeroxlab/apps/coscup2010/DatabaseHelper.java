@@ -30,19 +30,20 @@ import java.util.List;
 
 public class DatabaseHelper extends SQLiteOpenHelper implements ISyncAble {
 
+    private final Context mContext;
+
     private static final String TAG = "COSCUP2010/DatabaseHelper";
 
     private static final String ATOM_NAMESPACE = "http://www.w3.org/2005/Atom";
     private static final String AGENDA_NAMESPACE = "http://schemas.0xlab.org/agenda";
 
-    private static final String DATABASE_NAME = "coscup.db";
     private static final int DATABASE_VERSION = 3;
-    private static final String TRACKS_TABLE_NAME = "tracks";
-    private static final String SPEAKERS_TABLE_NAME = "speakers";
-    private static final String SESSIONS_TABLE_NAME = "sessions";
-    private static final String SPEAKERS_SESSIONS_TABLE_NAME = "speakers_sessions";
+    private static final String DATABASE_NAME = "coscup.db";
 
-    private final Context mContext;
+    public static final String TRACKS_TABLE_NAME = "tracks";
+    public static final String SPEAKERS_TABLE_NAME = "speakers";
+    public static final String SESSIONS_TABLE_NAME = "sessions";
+    public static final String SPEAKERS_SESSIONS_TABLE_NAME = "speakers_sessions";
 
     DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
