@@ -94,4 +94,10 @@ public final class Agenda {
 
         public static final String SESSION = "session";
     }
+
+    public static final class StarredSessions implements BaseColumns {
+        private StarredSessions() {}
+
+        public static final String SESSION = "session";
+    }
 }
