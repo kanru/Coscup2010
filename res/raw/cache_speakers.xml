@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>COSCUP 2010 Speakers</title>
+  <link href="http://coscup.org/2010/zh-tw/program/" />
+  <updated>2010-07-30T08:08:40Z</updated>
+  <author>
+    <name>Kan-Ru Chen</name>
+  </author>
+  <id>urn:uuid:29dfa6e6-43f3-31c0-8832-94e368e00c26</id>
+
+  <entry>
+    <title>Tick Chen</title>
+    <id>urn:uuid:e88adeea-2cde-3a48-9e86-934ea67a63c5</id>
+    <updated>2010-07-30T08:59:20Z</updated>
+    <summary>
+      0xlab developer
+      blog: http://linuxocarina.blogspot.com/
+    </summary>
+  </entry>
+
+  <entry>
+    <title>Matt Hsu</title>
+    <id>urn:uuid:fa7b0d23-124a-31cf-aad7-fe6bef703843</id>
+    <updated>2010-07-30T09:00:39Z</updated>
+    <summary>
+      0xlab developer
+      blog: http://matthsu-abacus.blogspot.com/
+    </summary>
+  </entry>
+
+</feed>

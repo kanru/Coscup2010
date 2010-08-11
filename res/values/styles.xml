@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Coscup2010" parent="@android:style/Theme.Black.NoTitleBar">
+  </style>
+  <style name="Widget">
+    <item name="android:background">#ff00bd00</item>
+  </style>
+  <style name="Widget.Separator">
+    <item name="android:background">#ffffffff</item>
+    <item name="android:layout_width">1px</item>
+    <item name="android:layout_height">fill_parent</item>
+  </style>
+</resources>

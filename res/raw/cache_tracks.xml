@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>COSCUP 2010 Tracks</title>
+  <link href="http://coscup.org/2010/zh-tw/program/" />
+  <updated>2010-08-11T09:43:07Z</updated>
+  <author>
+    <name>Kan-Ru Chen</name>
+  </author>
+  <id>urn:uuid:8a3cc141-7570-3f6d-850d-924a0cea15b1</id>
+
+  <entry>
+    <title><![CDATA[FLOSS & Device]]></title>
+    <id>urn:uuid:27728505-318b-32c6-b5d1-d2339f784fb9</id>
+    <updated>2010-08-11T10:07:45Z</updated>
+    <summary>
+    </summary>
+  </entry>
+
+</feed>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:agenda="http://schemas.0xlab.org/agenda">
+
+  <title>COSCUP 2010 Sessions</title>
+  <link href="http://coscup.org/2010/zh-tw/program/" />
+  <updated>2010-07-30T08:08:40Z</updated>
+  <author>
+    <name>Kan-Ru Chen</name>
+  </author>
+  <id>urn:uuid:3b1e5cc9-76f0-3d86-9536-68767f7cbe0b</id>
+
+  <entry>
+    <title>Be "Android"</title>
+    <id>urn:uuid:4320ee99-5241-3733-b2a4-6412f18431a8</id>
+    <updated>2010-07-30T08:28:10Z</updated>
+    <summary>
+      將 0xdroid 打造成為機器人平台 Robocat 是為 0xdroid 所設計的機器人
+      控制系統, 此議程將從硬體架構,系統設計, 函式庫及應用程式等不同層面
+      切入, 介紹如何打造自己的 ”Android”
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:27728505-318b-32c6-b5d1-d2339f784fb9</agenda:track>
+    <agenda:start>2010-08-15T14:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T14:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:e88adeea-2cde-3a48-9e86-934ea67a63c5">
+      Tick Chen
+    </agenda:speaker>
+    <agenda:speaker id="urn:uuid:fa7b0d23-124a-31cf-aad7-fe6bef703843">
+      Matt Hsu
+    </agenda:speaker>
+  </entry>
+
+</feed>
