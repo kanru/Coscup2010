@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">COSCUP 2010</string>
+  <string name="room1">in Room 1</string>
+  <string name="room2">in Room 2</string>
+  <string name="room3">in Room 3</string>
+  <string name="room4">in Room 4</string>
+  <string name="room_all">in All Room</string>
 </resources>

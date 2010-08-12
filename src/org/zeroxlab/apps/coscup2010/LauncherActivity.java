@@ -16,7 +16,9 @@ public class LauncherActivity extends Activity
         // DatabaseHelper db = new DatabaseHelper(this);
         // db.sync();
         Intent intent = new Intent();
-        intent.setClass(this, TrackListActivity.class);
+        // intent.setClass(this, TrackListActivity.class);
+        // startActivity(intent);
+        intent.setClass(this, SessionListActivity.class);
         startActivity(intent);
     }
 }

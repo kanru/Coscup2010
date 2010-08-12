@@ -16,6 +16,8 @@
     </activity>
     <activity android:name="TrackListActivity">
     </activity>
+    <activity android:name="SessionListActivity">
+    </activity>
     <provider android:name="AgendaProvider"
               android:authorities="org.zeroxlab.apps.coscup2010.agenda"
               android:process=":agedna" />

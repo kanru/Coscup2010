@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              >
+  <TextView android:id="@+id/session_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/font_size_large"
+            android:textStyle="bold"
+            />
+  <TextView android:id="@+id/session_time_room"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/session_title"
+            android:textSize="@dimen/font_size"
+            />
+</RelativeLayout>

@@ -10,4 +10,11 @@
       <item>#FF000070</item>
       <item>#FFFFA000</item>
     </array>
+    <array name="rooms">
+      <item>@string/room_all</item>
+      <item>@string/room1</item>
+      <item>@string/room2</item>
+      <item>@string/room3</item>
+      <item>@string/room4</item>
+    </array>
 </resources>
