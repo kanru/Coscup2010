@@ -29,6 +29,8 @@ public final class Agenda {
         public static final String UPDATED = "updated";
 
         public static final String SUMMARY = "summary";
+
+        public static final String COLOR = "color";
     }
 
     public static final class Speakers implements BaseColumns {

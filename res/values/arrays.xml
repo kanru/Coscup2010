@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="track_icons">
+      <item>@drawable/ic_track_default</item>
+      <item>@drawable/ic_track1</item>
+      <item>@drawable/ic_track2</item>
+    </array>
+    <array name="track_colors">
+      <item>#FF0A0A0A</item>
+      <item>#FF000070</item>
+      <item>#FFFFA000</item>
+    </array>
+</resources>

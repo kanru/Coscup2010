@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <style name="Coscup2010" parent="@android:style/Theme.Black.NoTitleBar">
+  <style name="Coscup2010" parent="@android:style/Theme.Light.NoTitleBar">
   </style>
   <style name="Widget">
     <item name="android:background">#ff00bd00</item>

@@ -1,6 +1,8 @@
 package org.zeroxlab.apps.coscup2010;
 
 import android.app.Activity;
+import android.content.ComponentName;
+import android.content.Intent;
 import android.os.Bundle;
 
 public class LauncherActivity extends Activity
@@ -11,7 +13,10 @@ public class LauncherActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        DatabaseHelper db = new DatabaseHelper(this);
-        db.sync();
+        // DatabaseHelper db = new DatabaseHelper(this);
+        // db.sync();
+        Intent intent = new Intent();
+        intent.setClass(this, TrackListActivity.class);
+        startActivity(intent);
     }
 }
