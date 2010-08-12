@@ -253,6 +253,12 @@ public class DatabaseHelper extends SQLiteOpenHelper implements ISyncAble {
                         speakers.add(attrs.getValue("id"));
                     }
                 });
+        sessionEntry.requireChild(AGENDA_NAMESPACE, "track")
+            .setEndTextElementListener(new EndTextElementListener() {
+                    public void end(String body) {
+                        values.put(Sessions.TRACK, body);
+                    }
+                });
         InputStream in = mContext.getResources().openRawResource(R.raw.cache_sessions);
         try {
             Xml.parse(in, Xml.Encoding.UTF_8, sessionRoot.getContentHandler());
