@@ -122,7 +122,7 @@ public class DatabaseHelper extends SQLiteOpenHelper implements ISyncAble {
         final SQLiteDatabase db = getWritableDatabase();
         RootElement trackRoot = new RootElement(ATOM_NAMESPACE, "feed");
         Element trackEntry = trackRoot.getChild(ATOM_NAMESPACE, "entry");
-        trackRoot.setElementListener(new ElementListener() {
+        trackEntry.setElementListener(new ElementListener() {
                 public void start(Attributes attr) {
                     values.clear();
                 }
@@ -176,7 +176,7 @@ public class DatabaseHelper extends SQLiteOpenHelper implements ISyncAble {
         final List<String> speakers = new ArrayList<String>();
         RootElement sessionRoot = new RootElement(ATOM_NAMESPACE, "feed");
         Element sessionEntry = sessionRoot.getChild(ATOM_NAMESPACE, "entry");
-        sessionRoot.setElementListener(new ElementListener() {
+        sessionEntry.setElementListener(new ElementListener() {
                 public void start(Attributes attr) {
                     values.clear();
                     speakers.clear();
