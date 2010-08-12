@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="45dp"
+                  >
+      <ImageButton style="@style/Widget"
+                   android:src="@drawable/ic_btn_home"
+                   android:layout_width="45dp"
+                   android:layout_height="fill_parent"
+                   />
+      <View style="@style/Widget.Separator" />
+      <TextView style="@style/Widget"
+                android:id="@+id/action_bar_title"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="16sp"
+                android:textSize="@dimen/font_size_large"
+                android:textStyle="bold"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:layout_weight="1"
+                />
+      <View style="@style/Widget.Separator" />
+      <ImageButton style="@style/Widget"
+                   android:src="@drawable/ic_btn_search"
+                   android:layout_width="45dp"
+                   android:layout_height="fill_parent"
+                   />
+  </LinearLayout>
+</merge>

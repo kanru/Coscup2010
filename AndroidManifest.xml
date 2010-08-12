@@ -10,16 +10,15 @@
               android:label="@string/app_name"
               >
     </activity>
-    <activity android:name="TrackListActivity">
-    </activity>
-    <activity android:name="SessionListActivity">
-    </activity>
-    <activity android:name="TrackActivity">
+    <activity android:name="TrackListActivity" />
+    <activity android:name="SessionListActivity" />
+    <activity android:name="TracksActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:name="TrackActivity" />
     <provider android:name="AgendaProvider"
               android:authorities="org.zeroxlab.apps.coscup2010.agenda"
               android:process=":agedna" />

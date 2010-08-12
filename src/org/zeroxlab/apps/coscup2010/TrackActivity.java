@@ -1,12 +1,18 @@
 package org.zeroxlab.apps.coscup2010;
 
+import org.zeroxlab.apps.coscup2010.Agenda.Tracks;
+
 import android.app.TabActivity;
 import android.content.Intent;
+import android.database.Cursor;
 import android.os.Bundle;
+import android.net.Uri;
+import android.text.Html;
 import android.view.Gravity;
 import android.widget.FrameLayout;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
+import android.widget.TextView;
 import android.widget.Button;
 
 public class TrackActivity extends TabActivity {
@@ -15,26 +21,35 @@ public class TrackActivity extends TabActivity {
 
         setContentView(R.layout.track);
 
+        Intent intent = getIntent();
+        Uri uri = intent.getData();
+
+        Cursor cursor = getContentResolver()
+            .query(uri, new String[] {Tracks._ID, Tracks.TITLE, Tracks.SUMMARY},
+                   null, null, null);
+
+        cursor.moveToFirst();
+
+        TextView title = (TextView)findViewById(R.id.action_bar_title);
+        title.setText(cursor.getString(cursor.getColumnIndex(Tracks.TITLE)));
+
         Button tab;
         TabHost tabHost = getTabHost();
         TabHost.TabSpec spec;
-        Intent intent;
 
         tab = new TabView(this);
-        tab.setText("Home");
-        intent = new Intent().setClass(this, LauncherActivity.class);
-        spec = tabHost.newTabSpec("Home").setIndicator(tab).setContent(intent);
-        tabHost.addTab(spec);
-
-        tab = new TabView(this);
-        tab.setText("Tracks");
-        intent = new Intent().setClass(this, TrackListActivity.class);
-        spec = tabHost.newTabSpec("tracks").setIndicator(tab).setContent(intent);
+        tab.setText("Summary");
+        TextView summary = (TextView)findViewById(R.id.track_summary);
+        summary.setText(Html.fromHtml(cursor.getString(cursor.getColumnIndex(Tracks.SUMMARY))));
+        spec = tabHost.newTabSpec("summary").setIndicator(tab).setContent(R.id.track_summary);
         tabHost.addTab(spec);
 
         tab = new TabView(this);
         tab.setText("Sessions");
-        intent = new Intent().setClass(this, SessionListActivity.class);
+        intent = new Intent(Intent.ACTION_VIEW,
+                            Uri.withAppendedPath(uri, "sessions"),
+                            this,
+                            SessionListActivity.class);
         spec = tabHost.newTabSpec("sessions").setIndicator(tab).setContent(intent);
         tabHost.addTab(spec);
 

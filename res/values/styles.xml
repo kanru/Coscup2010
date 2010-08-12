@@ -4,6 +4,7 @@
     <item name="android:windowContentOverlay">@null</item>
   </style>
   <style name="Widget">
+    <item name="android:textColor">#ffffffff</item>
     <item name="android:background">#ff00bd00</item>
   </style>
   <style name="Widget.Separator">

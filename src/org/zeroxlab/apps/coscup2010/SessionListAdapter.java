@@ -7,10 +7,12 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.database.Cursor;
+import android.net.Uri;
 import android.view.View;
 import android.widget.SimpleCursorAdapter.ViewBinder;
 import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
+import android.util.Log;
 
 public class SessionListAdapter extends SimpleCursorAdapter
     implements ViewBinder {
@@ -18,7 +20,7 @@ public class SessionListAdapter extends SimpleCursorAdapter
     Cursor mCursor;
     Activity mParent;
 
-    public SessionListAdapter(Context context) {
+    public SessionListAdapter(Context context, Uri uri) {
         super(context, R.layout.session_view, null, null, null);
 
         String[] columns = new String[] {
@@ -28,10 +30,9 @@ public class SessionListAdapter extends SimpleCursorAdapter
             "strftime('%H:%M'," + Sessions.END + ",'localtime')",
             Sessions.ROOM
         };
-
+        Log.d("SessionList", "query " + uri);
         mParent = (Activity)context;
-        mCursor = mParent.getContentResolver().query(Sessions.CONTENT_URI,
-                                                     columns, null, null, null);
+        mCursor = mParent.getContentResolver().query(uri, columns, null, null, null);
         mParent.startManagingCursor(mCursor);
 
         int[] to = new int[] { R.id.session_time_room, R.id.session_title };
