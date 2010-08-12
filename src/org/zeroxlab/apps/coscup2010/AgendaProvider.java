@@ -91,11 +91,11 @@ public class AgendaProvider extends ContentProvider {
             break;
         case SESSIONS_SPEAKERS:
             qb.setTables(DatabaseHelper.SPEAKERS_TABLE_NAME);
-            qb.appendWhere(Speakers.UUID + "=(SELECT " + SpeakersSessions.SPEAKER +
+            qb.appendWhere(Speakers.UUID + " in (SELECT " + SpeakersSessions.SPEAKER +
                            " FROM " + DatabaseHelper.SPEAKERS_SESSIONS_TABLE_NAME +
                            " WHERE " + SpeakersSessions.SESSION + "=(SELECT " +
-                           Sessions.UUID + " FROM " + DatabaseHelper.SPEAKERS_TABLE_NAME +
-                           " WHERE " + Speakers._ID + "=" + uri.getPathSegments().get(1) +
+                           Sessions.UUID + " FROM " + DatabaseHelper.SESSIONS_TABLE_NAME +
+                           " WHERE " + Sessions._ID + "=" + uri.getPathSegments().get(1) +
                            "))"
                            );
             if (orderBy == null)
@@ -154,6 +154,6 @@ public class AgendaProvider extends ContentProvider {
         sUriMatcher.addURI(Agenda.AUTHORITY, "sessions", SESSIONS);
         sUriMatcher.addURI(Agenda.AUTHORITY, "sessions/#", SESSION_ID);
         sUriMatcher.addURI(Agenda.AUTHORITY, "sessions/starred", SESSIONS_STARRED);
-        sUriMatcher.addURI(Agenda.AUTHORITY, "sessions/speakers", SESSIONS_SPEAKERS);
+        sUriMatcher.addURI(Agenda.AUTHORITY, "sessions/#/speakers", SESSIONS_SPEAKERS);
     }
 }
