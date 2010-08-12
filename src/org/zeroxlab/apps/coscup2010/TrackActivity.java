@@ -53,6 +53,8 @@ public class TrackActivity extends TabActivity {
         spec = tabHost.newTabSpec("sessions").setIndicator(tab).setContent(intent);
         tabHost.addTab(spec);
 
-        tabHost.setCurrentTab(2);
+        tabHost.setCurrentTab(1);
+
+        cursor.close();
     }
 }
