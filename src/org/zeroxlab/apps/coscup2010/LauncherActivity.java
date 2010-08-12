@@ -15,10 +15,10 @@ public class LauncherActivity extends Activity
         setContentView(R.layout.main);
         // DatabaseHelper db = new DatabaseHelper(this);
         // db.sync();
-        Intent intent = new Intent();
+        // Intent intent = new Intent();
         // intent.setClass(this, TrackListActivity.class);
         // startActivity(intent);
-        intent.setClass(this, SessionListActivity.class);
-        startActivity(intent);
+        // intent.setClass(this, TrackActivity.class);
+        // startActivity(intent);
     }
 }

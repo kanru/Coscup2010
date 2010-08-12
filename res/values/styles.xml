@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <style name="Coscup2010" parent="@android:style/Theme.Light.NoTitleBar">
+    <item name="android:windowContentOverlay">@null</item>
   </style>
   <style name="Widget">
     <item name="android:background">#ff00bd00</item>
@@ -9,5 +10,12 @@
     <item name="android:background">#ffffffff</item>
     <item name="android:layout_width">1px</item>
     <item name="android:layout_height">fill_parent</item>
+  </style>
+  <style name="Widget.TabWidget" parent="@android:style/Widget.TabWidget">
+    <item name="android:background">@drawable/tab_background</item>
+    <item name="android:gravity">center</item>
+    <item name="android:paddingLeft">2dp</item>
+    <item name="android:paddingRight">2dp</item>
+    <item name="android:clickable">true</item>
   </style>
 </resources>
