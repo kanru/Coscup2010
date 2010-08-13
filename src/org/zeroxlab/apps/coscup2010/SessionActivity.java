@@ -2,8 +2,10 @@ package org.zeroxlab.apps.coscup2010;
 
 import org.zeroxlab.apps.coscup2010.Agenda.Sessions;
 import org.zeroxlab.apps.coscup2010.Agenda.Speakers;
+import org.zeroxlab.apps.coscup2010.Agenda.Tracks;
 
 import android.app.TabActivity;
+import android.content.ContentValues;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -13,13 +15,20 @@ import android.os.Bundle;
 import android.text.Html;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.widget.TabHost.TabSpec;
 import android.widget.TabHost;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class SessionActivity extends TabActivity {
+
+    int mId = -1;
+    int mStarred = 0;
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -35,11 +44,30 @@ public class SessionActivity extends TabActivity {
             "strftime('%H:%M'," + Sessions.END + ",'localtime')",
             Sessions.ROOM,
             Sessions.SUMMARY,
+            Sessions.TRACK,
+            Sessions.STARRED
         };
 
         Cursor cursor = getContentResolver().query(uri, columns, null, null, null);
 
         cursor.moveToFirst();
+
+        mId = cursor.getInt(cursor.getColumnIndex(Sessions._ID));
+        mStarred = cursor.getInt(cursor.getColumnIndex(Sessions.STARRED));
+
+        String[] track_columns = new String[] {
+            Tracks._ID,
+            Tracks.TITLE
+        };
+
+        Cursor track = getContentResolver().query(Tracks.CONTENT_URI, track_columns,
+                                                  Tracks.UUID + "=?",
+                                                  new String[] {cursor.getString(cursor.getColumnIndex(Sessions.TRACK))}, null);
+
+        track.moveToFirst();
+
+        TextView top_title = (TextView)findViewById(R.id.action_bar_title);
+        top_title.setText(track.getString(track.getColumnIndex(Tracks.TITLE)));
 
         TextView title = (TextView)findViewById(R.id.session_title);
         title.setText(cursor.getString(cursor.getColumnIndex(Sessions.TITLE)));
@@ -62,7 +90,7 @@ public class SessionActivity extends TabActivity {
 
         tab = new TabView(this);
         tab.setText("Notes");
-        spec = tabHost.newTabSpec("notes").setIndicator(tab).setContent(R.id.session_summary);
+        spec = tabHost.newTabSpec("notes").setIndicator(tab).setContent(R.id.noimpl);
         tabHost.addTab(spec);
 
         tabHost.setCurrentTab(0);
@@ -88,5 +116,35 @@ public class SessionActivity extends TabActivity {
         }
         summary.setText(Html.fromHtml(summary_string.toString()));
         cursor.close();
+
+        final Button btn_star = (Button)findViewById(R.id.btn_star);
+        if (mStarred != 0)
+            btn_star.setBackgroundResource(R.drawable.ic_star_active);
+        else
+            btn_star.setBackgroundResource(R.drawable.ic_star_inactive);
+        btn_star.setFocusable(true);
+        btn_star.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    toggleStarred();
+                }
+            });
+    }
+
+    private void toggleStarred() {
+        ContentValues values = new ContentValues();
+        if (mStarred == 0)
+            mStarred = 1;
+        else
+            mStarred = 0;
+        values.put(Sessions.STARRED, mStarred);
+        getContentResolver()
+            .update(Uri.withAppendedPath(Sessions.CONTENT_URI, "starred"),
+                    values, Sessions._ID + "=?",
+                    new String[] { Integer.toString(mId) });
+        final Button btn_star = (Button)findViewById(R.id.btn_star);
+        if (mStarred != 0)
+            btn_star.setBackgroundResource(R.drawable.ic_star_active);
+        else
+            btn_star.setBackgroundResource(R.drawable.ic_star_inactive);
     }
 }

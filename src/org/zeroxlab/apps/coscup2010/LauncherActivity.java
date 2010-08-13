@@ -1,5 +1,7 @@
 package org.zeroxlab.apps.coscup2010;
 
+import org.zeroxlab.apps.coscup2010.Agenda.Sessions;
+
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
@@ -39,8 +41,6 @@ public class LauncherActivity extends Activity
                 public void onClick(View v) {
                     Intent intent = new Intent(Intent.ACTION_VIEW,
                                                Uri.parse("geo:25.039406,121.616957?z=19"));
-                    // Intent intent = new Intent(LauncherActivity.this,
-                    //                            GmapActivity.class);
                     try {
                         startActivity(intent);
                     } catch (ActivityNotFoundException e){
@@ -49,10 +49,27 @@ public class LauncherActivity extends Activity
                     }
                 }
             });
-        // Intent intent = new Intent();
-        // intent.setClass(this, TrackListActivity.class);
-        // startActivity(intent);
-        // intent.setClass(this, TrackActivity.class);
-        // startActivity(intent);
+        final Button btn_next = (Button) findViewById(R.id.btn_next);
+        btn_next.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    Intent intent = new Intent(Intent.ACTION_VIEW,
+                                               Uri.withAppendedPath(Sessions.CONTENT_URI, "next"));
+                    intent.setClass(LauncherActivity.this, SessionsActivity.class);
+                    // FIXME, L10N
+                    intent.putExtra("title", "Following Sessions");
+                    startActivity(intent);
+                }
+            });
+        final Button btn_starred = (Button) findViewById(R.id.btn_starred);
+        btn_starred.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    Intent intent = new Intent(Intent.ACTION_VIEW,
+                                               Uri.withAppendedPath(Sessions.CONTENT_URI, "starred"));
+                    intent.setClass(LauncherActivity.this, SessionsActivity.class);
+                    // FIXME, L10N
+                    intent.putExtra("title", "Starred Sessions");
+                    startActivity(intent);
+                }
+            });
     }
 }

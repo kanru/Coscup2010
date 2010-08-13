@@ -26,6 +26,14 @@
                   android:layout_height="fill_parent"
                   android:padding="5dp"
                   />
+        <TextView android:id="@+id/noimpl"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:padding="5dp"
+                  android:gravity="center"
+                  android:textStyle="bold"
+                  android:text="Not Implemented"
+                  />
       </FrameLayout>
     </LinearLayout>
   </TabHost>

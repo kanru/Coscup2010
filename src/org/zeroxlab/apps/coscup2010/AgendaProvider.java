@@ -28,6 +28,7 @@ public class AgendaProvider extends ContentProvider {
     private static final int SESSION_ID        = 5;
     private static final int SESSIONS_STARRED  = 6;
     private static final int SESSIONS_SPEAKERS = 7;
+    private static final int SESSIONS_NEXT     = 8;
     private static final UriMatcher sUriMatcher;
 
     private DatabaseHelper mOpenHelper;
@@ -84,7 +85,13 @@ public class AgendaProvider extends ContentProvider {
             break;
         case SESSIONS_STARRED:
             qb.setTables(DatabaseHelper.SESSIONS_TABLE_NAME);
-            qb.appendWhere(Sessions.STARRED + "=true");
+            qb.appendWhere(Sessions.STARRED + "=1");
+            if (orderBy == null)
+                orderBy = Sessions.DEFAULT_SORT_ORDER;
+            break;
+        case SESSIONS_NEXT:
+            qb.setTables(DatabaseHelper.SESSIONS_TABLE_NAME);
+            qb.appendWhere(Sessions.END + " > datetime('now')");
             if (orderBy == null)
                 orderBy = Sessions.DEFAULT_SORT_ORDER;
             break;
@@ -119,6 +126,7 @@ public class AgendaProvider extends ContentProvider {
         case TRACK_SESSIONS:
         case SESSIONS:
         case SESSIONS_STARRED:
+        case SESSIONS_NEXT:
             return Sessions.CONTENT_TYPE;
         case SESSION_ID:
             return Sessions.CONTENT_ITEM_TYPE;
@@ -137,7 +145,17 @@ public class AgendaProvider extends ContentProvider {
     @Override
     public int update(Uri uri, ContentValues values, String selection,
                          String[] selectionArgs) {
-        throw new UnsupportedOperationException("Modification is not supported");
+        switch (sUriMatcher.match(uri)) {
+        case SESSIONS_STARRED:
+            SQLiteDatabase db = mOpenHelper.getWritableDatabase();
+            int starred = values.getAsInteger(Sessions.STARRED);
+            values.clear();
+            values.put(Sessions.STARRED, starred);
+            return db.update(DatabaseHelper.SESSIONS_TABLE_NAME,
+                             values, selection, selectionArgs);
+        default:
+            throw new UnsupportedOperationException("Modification is not supported");
+        }
     }
 
     @Override
@@ -153,6 +171,7 @@ public class AgendaProvider extends ContentProvider {
         sUriMatcher.addURI(Agenda.AUTHORITY, "sessions", SESSIONS);
         sUriMatcher.addURI(Agenda.AUTHORITY, "sessions/#", SESSION_ID);
         sUriMatcher.addURI(Agenda.AUTHORITY, "sessions/starred", SESSIONS_STARRED);
+        sUriMatcher.addURI(Agenda.AUTHORITY, "sessions/next", SESSIONS_NEXT);
         sUriMatcher.addURI(Agenda.AUTHORITY, "sessions/#/speakers", SESSIONS_SPEAKERS);
     }
 }
