@@ -84,8 +84,7 @@ public class AgendaProvider extends ContentProvider {
             break;
         case SESSIONS_STARRED:
             qb.setTables(DatabaseHelper.SESSIONS_TABLE_NAME);
-            qb.appendWhere(Sessions.UUID + "=(SELECT * FROM " +
-                           DatabaseHelper.STARRED_SESSIONS_TABLE_NAME + ")");
+            qb.appendWhere(Sessions.STARRED + "=true");
             if (orderBy == null)
                 orderBy = Sessions.DEFAULT_SORT_ORDER;
             break;

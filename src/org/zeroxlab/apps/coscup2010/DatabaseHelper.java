@@ -1,7 +1,6 @@
 package org.zeroxlab.apps.coscup2010;
 
 import org.zeroxlab.apps.coscup2010.Agenda.Sessions;
-import org.zeroxlab.apps.coscup2010.Agenda.StarredSessions;
 import org.zeroxlab.apps.coscup2010.Agenda.Speakers;
 import org.zeroxlab.apps.coscup2010.Agenda.SpeakersSessions;
 import org.zeroxlab.apps.coscup2010.Agenda.Tracks;
@@ -38,14 +37,13 @@ public class DatabaseHelper extends SQLiteOpenHelper implements ISyncAble {
     private static final String ATOM_NAMESPACE = "http://www.w3.org/2005/Atom";
     private static final String AGENDA_NAMESPACE = "http://schemas.0xlab.org/agenda";
 
-    private static final int DATABASE_VERSION = 3;
+    private static final int DATABASE_VERSION = 4;
     private static final String DATABASE_NAME = "coscup.db";
 
     public static final String TRACKS_TABLE_NAME = "tracks";
     public static final String SPEAKERS_TABLE_NAME = "speakers";
     public static final String SESSIONS_TABLE_NAME = "sessions";
     public static final String SPEAKERS_SESSIONS_TABLE_NAME = "speakers_sessions";
-    public static final String STARRED_SESSIONS_TABLE_NAME = "starred_sessions";
 
     DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -79,6 +77,7 @@ public class DatabaseHelper extends SQLiteOpenHelper implements ISyncAble {
                    + Sessions.START + " DATE,"
                    + Sessions.END + " DATE,"
                    + Sessions.TRACK + " TEXT,"
+                   + Sessions.STARRED + " BOOLEAN,"
                    + "FOREIGN KEY(" + Sessions.TRACK + ") REFERENCES "
                    + TRACKS_TABLE_NAME + "(" + Tracks.UUID + ")"
                    + ");");
@@ -91,12 +90,6 @@ public class DatabaseHelper extends SQLiteOpenHelper implements ISyncAble {
                    + "FOREIGN KEY(" + SpeakersSessions.SESSION + ") REFERENCES "
                    + SESSIONS_TABLE_NAME + "(" + Sessions.UUID + ")"
                    + ");");
-        db.execSQL("CREATE TABLE " + STARRED_SESSIONS_TABLE_NAME + " ("
-                   + StarredSessions._ID + " INTEGER PRIMARY KEY,"
-                   + StarredSessions.SESSION + " TEXT UNIQUE,"
-                   + "FOREIGN KEY(" + StarredSessions.SESSION + ") REFERENCES "
-                   + SESSIONS_TABLE_NAME + "(" + Sessions.UUID + ")"
-                   + ");");
     }
 
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
@@ -104,7 +97,6 @@ public class DatabaseHelper extends SQLiteOpenHelper implements ISyncAble {
         db.execSQL("DROP TABLE IF EXISTS " + SPEAKERS_TABLE_NAME);
         db.execSQL("DROP TABLE IF EXISTS " + SESSIONS_TABLE_NAME);
         db.execSQL("DROP TABLE IF EXISTS " + SPEAKERS_SESSIONS_TABLE_NAME);
-        db.execSQL("DROP TABLE IF EXISTS " + STARRED_SESSIONS_TABLE_NAME);
         onCreate(db);
     }
 

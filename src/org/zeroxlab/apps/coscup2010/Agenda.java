@@ -87,18 +87,14 @@ public final class Agenda {
         public static final String END = "end";
 
         public static final String TRACK = "track";
+
+        public static final String STARRED = "starred";
     }
 
     public static final class SpeakersSessions implements BaseColumns {
         private SpeakersSessions() {}
 
         public static final String SPEAKER = "speaker";
-
-        public static final String SESSION = "session";
-    }
-
-    public static final class StarredSessions implements BaseColumns {
-        private StarredSessions() {}
 
         public static final String SESSION = "session";
     }
