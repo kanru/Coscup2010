@@ -40,14 +40,14 @@ public class SessionsActivity extends ListActivity {
         Intent intent = getIntent();
         if (intent.hasExtra("title")) {
             TextView title = (TextView)findViewById(R.id.action_bar_title);
-            title.setText(intent.getStringExtra("title"));
+            title.setText(intent.getIntExtra("title", R.string.search_sessions));
         }
 
         String query = null;
         if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
             query = intent.getStringExtra(SearchManager.QUERY);
             TextView title = (TextView)findViewById(R.id.action_bar_title);
-            title.setText("Search Sessions");
+            title.setText(R.string.search_sessions);
         }
         Uri uri = getIntent().getData();
         mAdapter = new SessionListAdapter(this, uri, query);

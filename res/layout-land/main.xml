@@ -18,7 +18,7 @@
             android:textSize="@dimen/font_size_large"
             android:textStyle="bold"
             android:textColor="#ff007eff"
-            android:text="Sessions" />
+            android:text="@string/btn_tracks" />
     <Button android:id="@+id/btn_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
             android:textSize="@dimen/font_size_large"
             android:textStyle="bold"
             android:textColor="#ff007eff"
-            android:text="Following\nSessions" />
+            android:text="@string/btn_next" />
     <Button android:id="@+id/btn_starred"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
             android:textSize="@dimen/font_size_large"
             android:textStyle="bold"
             android:textColor="#ff007eff"
-            android:text="Starred" />
+            android:text="@string/btn_starred" />
     <Button android:id="@+id/btn_map"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -51,6 +51,6 @@
             android:textSize="@dimen/font_size_large"
             android:textStyle="bold"
             android:textColor="#ff007eff"
-            android:text="Map" />
+            android:text="@string/btn_map" />
   </LinearLayout>>
 </LinearLayout>

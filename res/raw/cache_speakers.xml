@@ -10,6 +10,1001 @@
   <id>urn:uuid:29dfa6e6-43f3-31c0-8832-94e368e00c26</id>
 
   <entry>
+    <title>Akhil Laddha (Novell)</title>
+    <id>urn:uuid:e4e78086-f56a-34d4-a5e1-ea60b3e9609e</id>
+    <updated>2010-08-13T11:55:02Z</updated>
+    <summary>
+      <![CDATA[
+      <p>
+      Akhil has been working on GNOME for more than three years. His
+      major contribution includes testing of evolution and GNOME wide
+      bug triaging. Last year he topped the bug closer list. He was
+      the top bug reporter for Q4 in last year. Last to last year, he
+      was at 4th position in bug closer list. He is an active member
+      of bug squad.
+      </p>
+      ]]>
+    </summary>
+  </entry>
+
+  <entry>
+    <title>Xan López</title>
+    <id>urn:uuid:9ad0bcaf-96be-35b8-b714-233a6ddc8af7</id>
+    <updated>2010-08-13T12:16:54Z</updated>
+    <summary>
+      <![CDATA[
+      <p>
+        Xan López is a Free Software developer working in Igalia. He’s
+        a GNOME contributor, maintaining the Epiphany web browser, and
+        a WebKit reviewer, where he spends most of his time improving
+        and extending the GTK+ port of the engine.
+      </p>
+      ]]>
+    </summary>
+  </entry>
+
+  <entry>
+    <title>Yuren Ju</title>
+    <id>urn:uuid:1393163a-9373-33ee-bd27-02f436e94aec</id>
+    <updated>2010-08-13T12:19:53Z</updated>
+    <summary>
+      <![CDATA[
+      <p>現實生活中叫作小朱，對開放源碼軟體社群的參與跟撰寫軟體充滿興趣。
+      從南到北的生活分別參加了KaLUG與Hacking Thursday的社群活動。在與開
+      放源碼社群的朋友相處時感到很歡樂。</p>
+      ]]>
+    </summary>
+  </entry>
+
+  <entry>
+    <title>苗涛 (Tim Maio)</title>
+    <id>urn:uuid:9fee83c0-254a-35a5-b182-e4e14cd6fb2c</id>
+    <updated>2010-08-13T12:23:43Z</updated>
+    <summary>
+      <![CDATA[
+      <p>working in Sun China Engineering and Research Institute on
+      GNOME Accessibility testing for more than 4 years, leads
+      accessibility testing for OpenSolaris/Solaris Next desktop
+      products, also be responsible for 508 Assessment related works
+      in Sun/Oracle desktop team. Attended the first GNOME Asia
+      Summit.</p>
+      ]]>
+    </summary>
+  </entry>
+
+  <entry>
+    <title>王珂 (Ke Wang)</title>
+    <id>urn:uuid:d93d3084-7252-31dd-a3ac-c092b6324d0b</id>
+    <updated>2010-08-13T12:24:40Z</updated>
+    <summary>
+      <![CDATA[
+      <p>working in Sun China Engineering and Research Institute on
+      GNOME Accessibility development. Be the author and maintainer of
+      Java ATK Wrapper(an ATK implementation to help in Java
+      accessibility), and have helped in many accessibility related
+      bug fixing. Have also been actively involved in many other GNOME
+      development.</p>
+      ]]>
+    </summary>
+  </entry>
+
+  <entry>
+    <title>Emily Chen 陳陽</title>
+    <id>urn:uuid:de6d329d-2382-36bc-9cf7-f51dfd6ca336</id>
+    <updated>2010-08-13T12:28:28Z</updated>
+    <summary>
+      <![CDATA[
+      <p>Emily Chen is a software engineer working on OpenSolaris
+      desktop. Now she is responsible for the quality of the Mozilla
+      products like Firefox and Thunderbird on OpenSolaris. She is
+      passionate about open source.  She is core contributor of
+      OpenSolaris community in 2009. She worked on Google Summer of
+      Code program as a mentor in 2006 and 2007. She organized the
+      first ever GNOME.Asia Summit 2008 in Beijing and found the
+      Beijing GNOME Users Group. She graduated from Beijing Institute
+      of Technology with a masters degree in computer science. In her
+      spare time, she likes snowboarding, hiking and swimming.</p>
+      ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Frederic Muller (President, Software Freedom International)</title>
+    <id>urn:uuid:877ddb32-a47c-3c1c-85df-859eb114f2cc</id>
+    <updated>2010-08-13T12:31:27Z</updated>
+    <summary>
+      <![CDATA[
+      <p>Frederic Muller is the President of Software Freedom
+      International. He is also the founding member and former
+      President of the Beijing LUG, member of China Open Source
+      Promotion Union, co-organizer of many international OSS events
+      in China such as Linux Developer Symposium (2008), the
+      Gnome.Asia Summit, OOoCon 2008, local SFDs and blogger on ZDNet
+      Asia about Linux in China, Fred is now focusing on FOSS in
+      Education. The rest of the time he is assisted in his tasks at
+      SFI with all the board members and of course the happy members
+      of the now famous BLUG!</p>
+      ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Pockey Lam (GNOME.Asia)</title>
+    <id>urn:uuid:3d0a1bc8-0ef7-30ca-9f95-ae9fda1f464f</id>
+    <updated>2010-08-13T12:34:34Z</updated>
+    <summary>
+      <![CDATA[
+      <p>Pockey has been very active in promoting FOSS. She is a board
+      member of GNOME.Asia, Software Freedom International,
+      SFDChina.org, China OSS Promotion Union and a founding member of
+      the Beijing GNOME User Group that was established not long after
+      the GNOME.Asia Summit 2008. She was also the President of
+      Beijing Linux User Group and has been actively contributing to a
+      lot of international Free and Open Source events.</p>
+      ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Holger Freyther (zecke)</title>
+    <id>urn:uuid:540f0b8f-f2f4-33dc-afd7-059ec3135467</id>
+    <updated>2010-08-13T12:39:22Z</updated>
+    <summary>
+      <![CDATA[
+               <p>My name is Holger Hans Peter Freyther and I have
+               been hacking on Free and OpenSource Software for the
+               last decade and since about 2006 I am involved with the
+               WebKit project.
+               </p> ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Dave Lin (Release Engineer, Sun)</title>
+    <id>urn:uuid:99f352da-f014-3a24-98f0-ffd2e9d0c916</id>
+    <updated>2010-08-13T12:42:15Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 I’m the release engineer in Desktop team,
+                 Oracle/Sun. I’m responsible to drive the build
+                 process to ensure each Desktop module is
+                 built/delivered on schedule; support QA and
+                 development goals; and assist in adherence to a good
+                 software process(nightly builds, automation
+                 testing). I also manage a lab, which has the capacity
+                 of 100 workstation/servers and provides services,
+                 such as auto-install/nfs/web/cvs/sunray, to over 30
+                 users.
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Daiki Ueno (Red Hat i18n team)</title>
+    <id>urn:uuid:19cd958c-0702-3b89-9a55-1eac5b7fc754</id>
+    <updated>2010-08-13T12:43:10Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Daiki Ueno (Given Family) has been involved in free
+                 software development for a dozen years. His recent
+                 contributions are: Japanese SKK input-method for IBus
+                 (2009), a session resuming extension for GNUTLS
+                 (2009), ssh-agent support for libssh2 (2009), and
+                 GNUPG interface for Emacs (2006). In April 2010 he
+                 joined the Red Hat i18n team.
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Funda Wang 王鵬 (简体中文本地化 协调人)</title>
+    <id>urn:uuid:d6ef5395-8f47-30c0-a87e-94c9844541db</id>
+    <updated>2010-08-13T12:46:25Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Funda Wang 是简体中文本地化的协调人，领导着 GNOME、
+                 KDE 等诸多翻译项目。同时，他致力于在不同的国际化项目中
+                 改进中文化支持，包括输入法、字体，以及有关中文的bug修
+                 复和提交。他以一个专业的国际化人士的身份，活跃于整个
+                 Linux 社区。
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>黃佑仁 Rock (台大資工)</title>
+    <id>urn:uuid:0f724b26-99ce-38e7-a4f8-c29ab27add79</id>
+    <updated>2010-08-13T12:55:21Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 台灣大學資訊工程學系大學一年級學生，2009年10月開始參與
+                 自由軟體推廣活動。目前跟著台灣教育部自由軟體諮詢中心，
+                 為開發＂給初學者用的自由作業系統－Ezgo＂的一份子。
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>葉志偉 (北斗國小 特教組長)</title>
+    <id>urn:uuid:52bd1efb-5106-3c8d-8a33-d84385542c18</id>
+    <updated>2010-08-13T12:57:52Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 葉志偉，北斗國小資源班教師兼任特教組長，台灣第一本國小
+                 Linux課本「Ubuntu自由學電腦」作者，深信Linux資訊教育適
+                 用於國民教育階段的國中小。專門研究作業系統的輔助科技，
+                 希望能將特殊教育與自由軟體結合，帶給身障者更多的支持與
+                 服務。
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>FourDollars 李世元</title>
+    <id>urn:uuid:ee17d8ba-71db-3dc8-a64b-8e51eaf4d780</id>
+    <updated>2010-08-13T13:00:25Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 四元 自由軟體與開放原始碼軟體的實習生，取之於社群，回饋於社群。
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Ping-Hsun Chen 陳品勳 penk</title>
+    <id>urn:uuid:824c4f41-b0a7-3f67-b7b1-6254ec0d1fc0</id>
+    <updated>2010-08-13T13:03:10Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Ping-Hsun Chen (penk) is a web and FOSS developer,
+                 project leader of xPUD, enjoying in old-school rock
+                 ‘n’ roll, Sci-Fi novels and volleyball, participating
+                 open source related activities, writing in free
+                 software, translating documents and books, loves
+                 NightWish, Vonnegut and Perl.
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>劉穎駿 PaulLiu</title>
+    <id>urn:uuid:ad3aa24d-4cd1-3f88-b2df-44f8f4a0c9a1</id>
+    <updated>2010-08-13T13:06:33Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Debian Developer (2009~).
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Sascha Pallenberg (netbooknews.de)</title>
+    <id>urn:uuid:c654b442-df13-3c0b-8c37-b181f90e7b03</id>
+    <updated>2010-08-13T13:11:18Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Sascha Pallenberg has been a leading proponent of the
+                 small form factor and mobile computing market for
+                 several years. With the rise of the netbooks he
+                 started his first mobile computing blog Eeepcnews.de
+                 back in December 2007, while he was still living in
+                 the US. After just 2 months he quit his job at his US
+                 startup and relocated to Taipei/Taiwan to cover the
+                 recent netbook news directly from its’
+                 source. Netbooknews.de became a leading source for
+                 all the netbook related news, even though he is still
+                 blogging in German. Together with Nicole Scott he
+                 founded Netbooknews.com in June 2009 to publish daily
+                 mobile computing videos. In just 6 months it became
+                 the most viewed reporter channel on Youtube for
+                 Taiwan and one of the global Top 100 reporter
+                 channels.
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>沈聖博 shengpo (Openlab.Taipei)</title>
+    <id>urn:uuid:78a86e78-e830-30be-bbff-728296a25b87</id>
+    <updated>2010-08-13T13:13:59Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 1980年生，新生代數位藝術家。認為生活本身即是藝術，而人
+                 與人之間的許多活動是生活的成份，這是最原型的互動形態，
+                 你我之間一定存在著至少一種互動媒介將你我連結起來。因
+                 此，擅於觀察並找出你我之間的隱性連結，並透過作品加以呈
+                 現。
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>甘泰瑋</title>
+    <id>urn:uuid:6e2d0ad7-863e-3a09-9ae4-cdb49003a64e</id>
+    <updated>2010-08-13T13:16:45Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 甘泰瑋目前就讀於元智大學資訊傳播學系碩士班互動科技組。
+                 其研究興趣廣泛，主要致力於擴增實境(AR)、互動界面與情境
+                 感知(Context-awareness)相關議題之研究。擴增實境研究成
+                 果曾於數個虛擬實境相關國際研討會中獲得認同，部分研究成
+                 果更獲今年ACM SIGGRAPH評審青睞，暑假將赴洛杉磯以
+                 Poster形式發表。在互動裝置創作方面，今年(2010)有兩樣作
+                 品於ACM SIGGRAPH SPACETIME互動競賽中獲入圍，並將在洛杉
+                 磯展出。而過去的創作也曾被404國際電子藝術節與國內創作
+                 競賽中被認同，情境感知運算相關創作方面則於ISEA國際電子
+                 藝術研討會與國內研討會中獲得認同。在研究與創作的過程
+                 中，常常會運用到FLOSS開放原始碼軟體，如Pure Data,
+                 Processing, ARToolKit, Arduino等。因此在研究所就讀期
+                 間，累積了不少使用經驗與心得可與同好分享，目前已有部分
+                 心得與教學於個人部落格中與網友分享。
+               </p>
+               <p>
+                 今年九月將赴台灣大學資訊網路與多媒體研究所攻讀博士學
+                 位，未來將以行動裝置的情境感知與適地性服務之設計為研究
+                 與創作方向，也期許自己能持續的在學術或創作上付出更多心
+                 力，並將所學回饋社會。
+               </p>
+               <p>個人網站 http://www.twkan.com</p>
+               <p>部落格 http://jwill.pixnet.net</p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>張正一 魔法設計師</title>
+    <id>urn:uuid:6ecebfae-efa2-3b56-9e41-535fa7b98e17</id>
+    <updated>2010-08-13T13:19:33Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 自由軟體工作者-libdgg動態組字引擎開發、MonkeyGTK中譯版
+                 等FLOSS+art音樂創作人兼推廣者，現為Openlab.Taipei的ㄧ
+                 員
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Christopher Adams (Sharism.org)</title>
+    <id>urn:uuid:63199374-4756-321f-9a6b-8848f9a986e3</id>
+    <updated>2010-08-13T13:21:03Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Christopher Adams is a publishing professional and
+                 free culture advocate. Freesouls: captured and
+                 released by Joi Ito was his first Creative
+                 Commons-licensed publishing project. Christopher is a
+                 founding member of Sharism.org, and a member of the
+                 Creative Commons Network.
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Ike Panhc (Canonical)</title>
+    <id>urn:uuid:5c43e86e-fdc2-388b-a39e-3f8a59166be0</id>
+    <updated>2010-08-13T13:07:48Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Ike Panhc, works in Hardware Enablement Team at
+                 Canonical. Canonical is the number-one provider of
+                 Ubuntu services.
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>林誠夏 (專案經理, 中央研究院)</title>
+    <id>urn:uuid:36e09121-92f9-30ca-b211-c69a0806e764</id>
+    <updated>2010-08-13T13:23:48Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 林誠夏 (Lucien Lin) ，網路暱稱為 『Lucien』 或
+                 『lucien.cc』，知識背景是科技法律，但是也喜歡了解任何
+                 新奇有趣的東西。於2005年開始專職研究自由軟體授權條款，
+                 專長在於自由軟體授權條款的解說分析，以及自由軟體商業運
+                 用模式的觀察記錄。目前任職於中央研究院自由軟體鑄造場，
+                 兼任專案經理與法政研究，同時亦負責自由軟體鑄造場電子報
+                 的編輯工作。更多的活動參與及工作記錄請參閱OSSF Who’s
+                 Who的個人資料
+                 表
+                 ：http://whoswho.openfoundry.org/people/userprofile/lucien.html
+                 。
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Harald Welte (gpl-violations.org)</title>
+    <id>urn:uuid:a4483bf9-0ad8-3d7f-a78b-319ef2f7c607</id>
+    <updated>2010-08-13T13:25:33Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Harald Welte is a Free Software developer involved
+                 with many projects from the Linux Kernel to Openmoko
+                 as well as various GSM and RFID related projects. In
+                 2004 he has started the gpl-violations.org project
+                 which has enforced more than 150 cases of GPL license
+                 infringements till today.
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Shane Coughlan (Open Invention Network)</title>
+    <id>urn:uuid:74c1452e-d192-3428-921c-286d1c6ddeff</id>
+    <updated>2010-08-13T13:26:52Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Shane Coughlan is an expert in communication methods
+                 and business development. He is best known for
+                 building bridges between commercial and
+                 non-commercial stakeholders in the technology
+                 sector. His professional accomplishments include
+                 establishing a legal department for the main NGO
+                 promoting Free Software in Europe, building a
+                 professional network of over 200 legal counsel and
+                 technical experts across 27 countries, and aligning
+                 corporate and community interests to launch the first
+                 law review dedicated to Free/Open Source Software.
+               </p>
+               <p>
+                 Shane has extensive knowledge of Internet
+                 technologies, management best practice, community
+                 building and Free/Open Source Software. His
+                 experience includes engagement with the server,
+                 desktop, embedded and mobile telecommunication
+                 industries. He does business in Europe, Asia and the
+                 Americas, and maintains a broad network of contacts.
+               </p>
+                 ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Soeren Rabenstein (ASUSTeK Computer Inc.)</title>
+    <id>urn:uuid:708b6eb8-7a8d-3a0f-b41e-ed6169c293e7</id>
+    <updated>2010-08-13T13:32:44Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Education
+- Second German State Exam in Law (bar admission, eligibility as judge), Berlin, focus: International Private Law
+- Master of Laws, University of Cape Town, research focus: Information Technology Law, International Trade Law
+- First German State Exam in Law, FU and HU Berlin, study focus: Commercial Law, Intellectual Property Law
+
+Work Experience
+- Corporate Counsel Legal Compliance (European Law and Free Open Source Licenses) at ASUSTeK Computer Inc., Taiwan
+- Interim Manager of Operations at Behringer Holdings Pte. Limited, Singapore
+- Project Counsel e-commerce at Payment Processing Corporation, Philippines
+- Barrister pupillage at Berlin High Court, Germany
+- Lecturer on Media Convergence topics at Graduate School of Business, University of Cape Town, South Africa
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>翁千婷 whiteg (中研院 研究助理)</title>
+    <id>urn:uuid:875a121a-dd9e-3f80-953f-18a05c8b44c4</id>
+    <updated>2010-08-13T13:34:58Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Currently a research assistant in IIS,
+                 Sinica. Interested in human-computer interaction and
+                 F/OSS.
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Tony Chan (Developer Advocate, Google)</title>
+    <id>urn:uuid:9a09d92f-ea7d-3558-9907-921a888c0654</id>
+    <updated>2010-08-13T13:36:37Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Tony Chan joined Google in 2007 as a developer
+                 program engineer.  Since then, he helped developers
+                 with various Google products/APIs like Google
+                 Checkout, Apps and Android. Currently, Tony is a
+                 developer advocate for Android. Prior joining Google,
+                 Tony was a senior application developer at the
+                 University of Michigan and a management consultant at
+                 PricewaterhouseCooper. He received his M.B.A and
+                 M.S.E. degrees from University of Michigan, Ann
+                 Arbor.
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Allan Patrick D. Caeg (Philippine Open Source Network Inc.)</title>
+    <id>urn:uuid:463382f1-7df1-3f74-b498-12516f11024d</id>
+    <updated>2010-08-13T13:38:09Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 I am a User Experience professional who learned about
+                 this field by contributing to Open Source design. I
+                 contribute mostly to Ubuntu and GNOME. My FOSS
+                 advocacy includes my being a board member of the
+                 Philippine Open Source Network, being a Coordinator
+                 of Mozilla Philippines Community, and my enthusiasm
+                 for Android. I design for web, desktop, and mobile
+                 platforms. You can find more information about me
+                 here http://live.gnome.org/AllanCaeg
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Tim Yang (Product Manager, Linpus)</title>
+    <id>urn:uuid:fbe71d5f-e36f-3820-a700-0211655e6464</id>
+    <updated>2010-08-13T13:43:07Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Tim Yang got his B.E. from University of Science and
+                 Technologies of China and MSC from University of
+                 Western Ontario, Canada, both in Computer Science. He
+                 holds a position as product manager in Linpus
+                 Technologies Inc starting from Apr. 2009. In Linpus,
+                 he is in charge of the product design for Linpus
+                 Linux Lite series. Prior to join Linpus, he worked in
+                 HP for three years as a project manager.
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>黃志偉 cwhuang</title>
+    <id>urn:uuid:6c8cc760-41dc-3443-aa70-0b6516d38e43</id>
+    <updated>2010-08-13T13:44:38Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 講者參與開放源碼運動已有超過十年的時間。發起或主持過
+                 CLE、CLDP、Android-x86 等計劃，並參與 GNU Gatekeeper、
+                 OpenH323、Asterisk、KDE、GNOME 等開發工作。
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>黃敬群 jserv (0xlab)</title>
+    <id>urn:uuid:a0ff19fb-c417-37d3-9e92-604636fa02d9</id>
+    <updated>2010-08-13T13:46:08Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 0xlab developer
+               </p>
+               <p>blog (0xlab): http://jserv.blogspot.com/</p>
+               <p>blog: http://blog.linux.org.tw/jserv/</p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>劉昱賢 thomasysliu</title>
+    <id>urn:uuid:d972f8b7-c298-374c-8332-fd4e65d9d1a6</id>
+    <updated>2010-08-13T13:47:48Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 交通大學電子工程系學生，對嵌入式系統領域稍有涉獵。
+                 Thomas 之前於晶心科技，一間台灣 32 位元處理器的 IC 設
+                 計公司打工。在台灣心的開發平台，都靠 Game Emulator 騙
+                 吃騙喝。近年來由於工作與興趣關係研究 Game Emulator，熱
+                 於探索應用自由軟體的應用模式與機會。
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>林弘德 piaip (Google Chrome OS team)</title>
+    <id>urn:uuid:b1967748-5d9e-35b9-91dc-d900d02b782a</id>
+    <updated>2010-08-13T13:49:36Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 * current member of the Google Chrome OS team
+               </p>
+               <p>* skilled in reverse engineering and tamper resistance technology</p>
+               <p>
+                 * participated in open source projects such as Mozilla, VIM, PuTTY, PTTBBS
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>詹宗翰 (Product Manager, Nokia )</title>
+    <id>urn:uuid:d6bb5ec0-dad8-3409-8e14-a78becd614f7</id>
+    <updated>2010-08-13T13:51:36Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Nokia Product Manager
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>朱立 walkingice (0xlab)</title>
+    <id>urn:uuid:2f4208ca-2108-3979-a27c-e29ef33a76e7</id>
+    <updated>2010-08-13T13:53:06Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 0xlab developer,
+                 blog: http://walkingice.twbbs.org/blog
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>林智斌 Macpaul</title>
+    <id>urn:uuid:98030920-a637-34f8-9be9-11bb49149425</id>
+    <updated>2010-08-13T13:54:27Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Macpaul，喜歡亂入，愛管閒事的人。對環保、非主流議題有
+                 興趣。在學校裡頭學網通領域出身，曾經在台灣的網通系統整
+                 合廠服務過。現在在產業鍊的最上游服務，希望藉由這種機
+                 會，來把產業升級的理念，落實到產業鍊之中。
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>唐鳳</title>
+    <id>urn:uuid:3c30078c-513e-3a45-a65d-f363d0d02644</id>
+    <updated>2010-08-13T13:57:03Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 唐鳳。真核域。動物界。脊索動物門。脊椎動物亞門。哺乳綱。
+                 靈長目。人科。人屬。智人。（啊，你也是？真巧！） (
+                 註：據維基百科描述，唐鳳是 Pugs 專案的發起人，領導
+                 Haskell 和 Perl 社群協力開發 Perl 6 語言。唐鳳也致力於
+                 自由軟體的國際化工作，包括設計 Kwiki、RT 及 Slash 等系
+                 統的國際化架構，並發起多項開放源碼書籍的翻譯計劃。在
+                 CPAN 上，唐鳳負責維護 100 餘項的 Perl 相關專案，包括
+                 Perl Archive Toolkit (PAR) 這項跨平台封裝及建置工具，
+                 以及 CPAN 的自動測試及數位簽署系統等。)
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>畢瑄易 ericpi (資深工程師, KKBOX)</title>
+    <id>urn:uuid:2b553e5e-af20-39b1-9bb9-4fb73e31fed1</id>
+    <updated>2010-08-13T13:58:27Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 曾任北京天玩科技技術經理, 目前於願境網訊股份有限公司
+                 (KKBOX)的研發中心擔任資深工程師, 主要負責 KKBOX 後端系
+                 統平台相關的設計開發工作; 喜愛各種 Open Source 應用,
+                 為 Gentoo、FreeBSD 愛好者.
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Eric Bidelman (Developer Advocate, Google)</title>
+    <id>urn:uuid:9fc0a263-281d-3106-8e33-de1c8a4b8c41</id>
+    <updated>2010-08-13T13:59:54Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Eric is an engineer and developer advocate on
+                 Google’s Developer Relations team. Over the last two
+                 years he’s worked on various developers focused
+                 products, including Google Docs, Sites, Health, and
+                 OAuth. Recently, Eric joined the Chrome team to help
+                 spread HTML5 goodness around the globe. Prior to
+                 Google, Eric worked as a software engineer at the
+                 University of Michigan where he designed rich web
+                 applications and APIs for the university’s 19
+                 libraries. Eric holds a B.S.E in Computer Engineering
+                 and a B.S.E in Electrical Engineering from the
+                 University of Michigan, Ann Arbor.
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>陳官辰 freedom (工研院)</title>
+    <id>urn:uuid:2d65b838-3906-3ce0-bc17-16c59a02d78c</id>
+    <updated>2010-08-13T14:02:45Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Koan-Sin Tan is a veteran open source / unix user. He
+                 learnt to use simple Basic programs on Multitech
+                 MPF-II (宏碁 小教授二號) in early 1980s, then learnt
+                 to use and write code for Unix on a VAX-11/780
+                 running 4.3BSD in late 1980s.
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>蔣定宇 josephj (專案副理, D-Link)</title>
+    <id>urn:uuid:52587fee-e935-393a-8da3-304db0927d2f</id>
+    <updated>2010-08-13T14:05:28Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 蔣定宇，網路代號 josephj，對於新技術跟程式碼有著強烈的
+                 偏執狂：開發注重 Semantic、Maintenance、Accessibility、
+                 Usability。目前任職於 D-Link 友訊科技擔任專案副理，利
+                 用 YUI 3 OOP 的概念製作跨網站的服務。
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>尤孝庭 笨笨的小B (Mozilla Jetpack 大使)</title>
+    <id>urn:uuid:cc191c4e-c6cb-390b-a31c-41594bfd122d</id>
+    <updated>2010-08-13T14:06:48Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 尤孝庭（笨笨的小B），Mozilla 官方指派之 Jetpack 大使。阿宅一枚。台灣大學電機工程學系學生、MozTW志工、長年專研 Web Programming 領域。
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Michael(tm) Smith (HTML Activity/WG lead, W3C)</title>
+    <id>urn:uuid:20e2076b-fb61-3ba8-b82a-41b17fb2894c</id>
+    <updated>2010-08-13T14:08:24Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Mike Smith is the HTML Activity/WG lead of W3C and
+                 also an active player of WHATWG, the group that
+                 started the HTML5. He now mediates between people who
+                 have issues around HTML5. He is also a main developer
+                 of validator.vu, an HTML5 validator which is now
+                 being integrated into the famous W3C validator.
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>謝子斌 (Web Evangelist, Opera)</title>
+    <id>urn:uuid:eefb14ed-3d6d-3f8c-ab1b-f6c0fde558df</id>
+    <updated>2010-08-13T14:09:56Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 謝子斌從事網路標準研究，現任挪威 Opera 軟件公司網路標
+                 準專（Web Evangelist），其工作包括了推廣 HTML5 和
+                 CSS3 的發展。除了在台灣 PC ADV／電腦王雜誌有專欄文章發
+                 表之外，今年也會在北京 W3C Day 演講。
+                 (http://webrebuild.org/y/beijing/2 /)。他預測德國今年
+                 會贏得世界杯，如果沒有你可以在會場和他要一件 Opera
+                 t-shirt。Twitter：zibin
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>胡崇偉 Marr (中研院 研究助理)</title>
+    <id>urn:uuid:f3328aa1-91f3-3b5c-93e4-bf2ee48ddbeb</id>
+    <updated>2010-08-13T14:11:38Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Marr 是 Python 程式語言愛好者，在中央研究院資訊科學研
+                 究所擔任研究助理，參與 Open Source Software Foundry 的
+                 營運工作。同時也是軟體自由協會理監事。平常參與技術文件
+                 撰寫，任何關於 Python 的話題都有興趣外，也投注 Linux
+                 系統整合、程式人員生產力的議題。
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>郭文傑 (國網中心)</title>
+    <id>urn:uuid:34197b0c-177c-3bfc-9b0d-641464cdf48f</id>
+    <updated>2010-08-13T14:13:17Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 nchc 自由軟體實驗室
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Shih-Yong Wang (Software Engineer, Yahoo! Taiwan)</title>
+    <id>urn:uuid:96d10f81-58a7-3c14-a4ac-9a37001b9b16</id>
+    <updated>2010-08-13T14:14:30Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Software engineer, Yahoo! Taiwan
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Michael Pan (CEO, nephosity)</title>
+    <id>urn:uuid:919d2e1c-4ae3-3dc8-a694-5656ba560c3e</id>
+    <updated>2010-08-13T14:16:52Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Michael Pan is the CEO and founder of nephosity. He
+                 has over 10years working on high performance
+                 (distributed, grid, cloud) computing. in a previous
+                 life, he has worked at DreamWorks animation, NIH
+                 Center for Computational Biology, JPL, and HPLabs.
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>翟本喬 (台達電子 資深處長)</title>
+    <id>urn:uuid:e351d212-5e47-32dc-8d68-7e99d9284d75</id>
+    <updated>2010-08-13T14:19:59Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 翟本喬博士畢業於紐約大學電腦科學系，2003 年進入
+                 Google 主持伺服器平台之規劃，共設計四代之伺服器以及其
+                 他多項硬體，Google 之高效率單電壓電源供應器設計即出自
+                 其手，貨櫃型資料中心及內建電池之伺服器亦是由其團隊所設
+                 計，2007-2009 在 Google 台北工程中心主持軟體研發計劃，
+                 2009-2010 回到美國 Google 進行資料中心之研發。2010 年
+                 4 月回到台灣加入台達電子，擔任雲端技術中心資深處長，負
+                 責有關雲端運算硬體及軟體之整合與開發。
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>高嘉璘 AceLan (Kernel Engineer, Canonical )</title>
+    <id>urn:uuid:c03615db-c269-381e-8282-1fd3eaa3aec4</id>
+    <updated>2010-08-13T14:25:09Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Canonical kernel engineer，曾任 KDE@Taiwan
+                 coordinator，及參與 {linux,debian}.org.tw 各項事務
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>吳政璋 小璋丸</title>
+    <id>urn:uuid:e79e51ef-a7b6-37ea-a816-0e1653292346</id>
+    <updated>2010-08-13T14:26:52Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 我是個小小的程序員
+喜歡用 Open Source 的資源來完成自己的工作
+此外自己也正在研發一些屬於自己的好玩事物
+關於我的作品可以參考
+               </p>
+               <p>
+http://code.google.com/p/uvajava
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>李圭峰 Thinker</title>
+    <id>urn:uuid:316763ee-dd58-3b47-afca-22aba6ef37c2</id>
+    <updated>2010-08-13T14:28:10Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 開發了 MadButterfly，ajaxmind，netgraffiti 等專案，您
+                 可以在這裡找到他的心得
+                 http://heaven.branda.to/~thinker/GinGin_CGI.py
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>許洛豪 Brian Hsu</title>
+    <id>urn:uuid:1fa871ef-a3f4-3db3-b64d-b89059539ab2</id>
+    <updated>2010-08-13T14:30:51Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Brian Hsu（墳墓）只是個萌程式、動畫、漫畫、遊戲和輕小說的阿宅。
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>宗豪 tsung</title>
+    <id>urn:uuid:13c54ec2-8257-3342-a73b-a75bebec6b2c</id>
+    <updated>2010-08-13T14:32:25Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Tsung 是個於網路業界四處遊走的平凡人
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>楊士青 依瑪貓 (昇陽教育中心講師)</title>
+    <id>urn:uuid:a7f1434b-bf0d-3f65-9404-66aa0ae4ccf9</id>
+    <updated>2010-08-13T14:29:37Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 依瑪貓╱楊士青，曾任OpenOffice.org 應用開發工程師，目前
+                 擔任昇陽電腦教育訓練中心專任講師，資策會教育訓練中心兼
+                 任講師等，並於最近加入 Debian 的 OpenOffice.org 套件團
+                 隊。並擅長 Perl/PHP 程式語言與網站系統開發，為資深的
+                 Perl 燒機測試人員，MySQL AB Basic Quality Contributer。
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>周立瑋 sleepnova</title>
+    <id>urn:uuid:d9486578-c0c1-3c44-889b-161ed8ddba0b</id>
+    <updated>2010-08-13T14:23:03Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 擁有數學魂的資訊人，致力於尋找更佳的程式設計典範。嚴重
+                 精神潔癖，不能忍受程式碼裡頭有不乾淨的東西。反省資訊人
+                 的社會責任，資訊人除了自我感覺良好之外，還能為社會做點
+                 什麼?目前身份為資訊浪人，過著周遊列國的日子，四海為家…
+                 (Android 呼叫小黃 及 Chrome 小字典 作者)
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>彭兆蔚 / ply (資策會 專案經理)</title>
+    <id>urn:uuid:bc2436f7-0b92-3692-9fdc-d044167f6595</id>
+    <updated>2010-08-13T14:21:19Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 台大資工所畢業，曾任台大資訊系統訓練班 Java 課程與
+                 Ajax 課程講師，現於資策會擔任專案經理與軟體工程師職務。
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Gasol (PIXNET)</title>
+    <id>urn:uuid:b4a23bd4-072b-31b3-910e-90562c2fab72</id>
+    <updated>2010-08-13T14:18:45Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
     <title>Tick Chen</title>
     <id>urn:uuid:e88adeea-2cde-3a48-9e86-934ea67a63c5</id>
     <updated>2010-07-30T08:59:20Z</updated>
@@ -28,5 +1023,63 @@
       blog: http://matthsu-abacus.blogspot.com/
     </summary>
   </entry>
-
+  <entry>
+    <title>Charles McCathieNevile (Chief Standards Officer, Opera)</title>
+    <id>urn:uuid:df7a672b-14b3-334d-9c22-8896c399f66e</id>
+    <updated>2010-08-13T14:35:09Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Charles McCathieNevile 自 2005 年起於Opera Software擔
+                 任首席網路標準長(Chief Standards Officer)。加入Opera
+                 之前，他曾於全球資訊網協會（World Wide Web
+                 Consortium，簡稱W3C）工作，參與制定大部份核心的網路標
+                 準如HTML、CSS、SVG與其他開放性標準技術等。他現在代表
+                 Opera在W3C的網路應用小組擔任共同主持人，並且是W3C諮詢
+                 委員會一員。同時，Charles 在國際上是公認知名的無障礙網
+                 頁 (Web Accessibility) 專家，在網際網路方面涉略廣泛，
+                 包括網際網路的社會層面、如何幫助開發者更簡易有效地創造
+                 網頁內容與應用，適合給所有人、所有裝置上存取。
+                 Charles 是澳洲人，在學時修習西洋中古世紀歷史並取得學
+                 位，目前在西班牙與挪威之間兩地工作。
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Brian Cameron</title>
+    <id>urn:uuid:96e5e9fb-a1ac-3976-9c5b-3c3e024b2409</id>
+    <updated>2010-08-13T14:36:41Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Brian Cameron is a free software advocate and has
+                 worked for the past 10 years as a senior engineer on
+                 the GNOME Desktop at Sun Microsystems and now
+                 Oracle. Brian has served on the GNOME Foundation
+                 board of directors for the past 2.5 years and is
+                 currently acting as secretary. Brian has also been
+                 the maintainer of GDM since January, 1995.
+               </p>
+               ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>张弛</title>
+    <id>urn:uuid:23835a3a-be5c-3a5e-a75d-911cbda0ebda</id>
+    <updated>2010-08-13T14:38:20Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 张弛先生现任Nokia, Qt开发框架大中国地区技术经理，负责
+                 战略客户以及合作伙伴的技术咨询和业务拓展等工作。并在商
+                 业客户，开源社区和大学中积极推广Qt技术。此前，他一直任
+                 职于奇趣科技（ Qt公司前身 ）和摩托罗拉公司，在移动通讯
+                 领域有着丰富的知识和经验。 张弛是公认的Qt专家，在许多
+                 公开会议中发表演讲。对移动生态系统，包括手机及消费电
+                 子，中间件以及第三方应用，有着丰富的经验。
+               </p>
+               ]]>
+    </summary>
+  </entry>
 </feed>

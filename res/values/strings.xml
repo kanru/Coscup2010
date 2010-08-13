@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">COSCUP 2010</string>
-  <string name="room1">in Room 1</string>
-  <string name="room2">in Room 2</string>
-  <string name="room3">in Room 3</string>
-  <string name="room4">in Room 4</string>
+  <string name="room1">Int’l Conf. Room</string>
+  <string name="room2">1st Conf. Room</string>
+  <string name="room3">2nd Conf. Room</string>
+  <string name="room4">3rd Conf. Room</string>
   <string name="room_all">in All Room</string>
   <string name="search_hint">Search the sessions</string>
+  <string name="btn_tracks">Sessions</string>
+  <string name="btn_map">Map</string>
+  <string name="btn_next">Following\nSessions</string>
+  <string name="btn_starred">Starred</string>
+  <string name="title_tracks">Session Tracks</string>
+  <string name="tab_summary">Summary</string>
+  <string name="tab_sessions">Sessions</string>
+  <string name="tab_notes">Notes</string>
+  <string name="session_not_found">No Sessions Find</string>
+  <string name="not_implemented">Patches Welcome!</string>
+  <string name="next_sessions">Following Sessions</string>
+  <string name="starred_sessions">Starred Sessions</string>
+  <string name="search_sessions">Search Sessions</string>
+  <string name="speakers">Speakers</string>
 </resources>

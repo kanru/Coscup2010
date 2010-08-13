@@ -7,7 +7,7 @@
   <TextView android:id="@+id/noresult"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="No Sessions Find"
+            android:text="@string/session_not_found"
             android:textStyle="bold"
             android:textSize="@dimen/font_size_large"
             android:visibility="gone"

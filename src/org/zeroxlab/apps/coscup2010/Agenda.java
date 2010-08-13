@@ -20,7 +20,7 @@ public final class Agenda {
         public static final String CONTENT_ITEM_TYPE =
             "vnd.android.cursor.item/vnd.zeroxlab.track";
 
-        public static final String DEFAULT_SORT_ORDER = "updated DESC";
+        public static final String DEFAULT_SORT_ORDER = "title ASC";
 
         public static final String TITLE = "title";
 
@@ -45,7 +45,7 @@ public final class Agenda {
         public static final String CONTENT_ITEM_TYPE =
             "vnd.android.cursor.item/vnd.zeroxlab.speaker";
 
-        public static final String DEFAULT_SORT_ORDER = "updated DESC";
+        public static final String DEFAULT_SORT_ORDER = "updated ASC";
 
         public static final String NAME = "name";
 
@@ -68,7 +68,7 @@ public final class Agenda {
         public static final String CONTENT_ITEM_TYPE =
             "vnd.android.cursor.item/vnd.zeroxlab.session";
 
-        public static final String DEFAULT_SORT_ORDER = "updated DESC";
+        public static final String DEFAULT_SORT_ORDER = "start ASC";
 
         public static final String TITLE = "title";
 

@@ -4,12 +4,1643 @@
 
   <title>COSCUP 2010 Sessions</title>
   <link href="http://coscup.org/2010/zh-tw/program/" />
-  <updated>2010-07-30T08:08:40Z</updated>
+  <updated>2010-08-13T11:47:44Z</updated>
   <author>
     <name>Kan-Ru Chen</name>
   </author>
   <id>urn:uuid:3b1e5cc9-76f0-3d86-9536-68767f7cbe0b</id>
 
+  <entry>
+    <title>Bugzilla, Bug squad and GNOME 3</title>
+    <id>urn:uuid:551e0d74-3eaa-3c8e-ba71-8f92f8c267f9</id>
+    <updated>2010-08-13T11:48:48Z</updated>
+    <summary>
+      <![CDATA[
+      <p>
+      This year the GNOME Bug Squad has decided to channelize all its
+      efforts into handling GNOME Bugzilla better for the milestone
+      GNOME 3 release, to motivate a lot more volunteers to get
+      involved by making them aware of the simple processes involved.
+      </p><p>
+      We at the Bug Squad, make it easy and beautiful for users and
+      developers. This presentation will shed light on Bugzilla
+      statistics about incoming bugs, work flow of the Bug Squad and
+      also on how to make it easy for beginners to jump start with
+      triaging by helping them understand,
+      </p>
+      <p>* What does bug triaging mean and what is the bug life cycle.</p>
+      <p>* How a beginner could jump in bug triaging</p>
+      <p>* What are things which he should watch out for</p>
+      <p>
+      The session would wrap up with a discussion on the following
+      issues with the interested community.
+      </p>
+      <p>* How to attract more people for triaging</p>
+      <p>* What are best practices we can follow and improve bug squad</p>
+      <p>* How we can improve bug reporting process</p>
+      ]]>
+    </summary>
+    <agenda:room>2</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:4575ec29-6c75-3f0d-8edc-f18c2872c49b</agenda:track>
+    <agenda:start>2010-08-15T13:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T14:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:e4e78086-f56a-34d4-a5e1-ea60b3e9609e">
+    </agenda:speaker>
+  </entry>
+  <entry>
+    <title>Hybrid Desktop/Web applications with WebKitGTK+</title>
+    <id>urn:uuid:ced8df3a-b683-3e56-baba-35bdefe09354</id>
+    <updated>2010-08-13T12:14:24Z</updated>
+    <summary>
+      <![CDATA[
+      <p>
+        Do you want to write native looking GNOME applications while
+        at the same time using all the compelling recent additions to
+        the web arsenal like HTML5 or CSS3? In this talk we’ll use
+        WebkitGTK+’s well-integrated GObject DOM bindings to get
+        direct access to the well-known DOM APIs for building truly
+        integrated hybrid GNOME applications.
+      </p>
+      ]]>
+    </summary>
+    <agenda:room>2</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:4575ec29-6c75-3f0d-8edc-f18c2872c49b</agenda:track>
+    <agenda:start>2010-08-15T15:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T16:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:9ad0bcaf-96be-35b8-b714-233a6ddc8af7">
+    </agenda:speaker>
+  </entry>
+  <entry>
+    <title>Javascript in Linux Desktop</title>
+    <id>urn:uuid:0e368fab-7db2-34e5-a2ff-fcea001e7832</id>
+    <updated>2010-08-13T12:17:59Z</updated>
+    <summary>
+      <![CDATA[
+      <p>自從網頁應用程式如 gmail, facebook platform 逐漸在電腦中佔有重
+      要地位後，Javascript 這門歷史悠久的程式語言也重新獲得重視，在
+      Ajax 的應用下嶄露頭角。雖然眾人對於 Javascript 的焦點至今都放在網
+      際網路的應用，事實上它在桌面程式的應用卻也悄悄的蔓延開來。
+      Javascript in Linux Desktop 分別從 Javascript Engine, Desktop
+      runtime 與 Desktop Application 來分享介紹 Javascript 在桌面環境的
+      應用與發展，並展示數個以 Javascript 撰寫的桌面應用程式作為
+      Javascript in Desktop的火力展示！</p>
+      ]]>
+    </summary>
+    <agenda:room>2</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:4575ec29-6c75-3f0d-8edc-f18c2872c49b</agenda:track>
+    <agenda:start>2010-08-15T16:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T16:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:1393163a-9373-33ee-bd27-02f436e94aec">
+    </agenda:speaker>
+  </entry>
+  <entry>
+    <title>GNOME Accessibility Development and Testing</title>
+    <id>urn:uuid:3389f4c8-2f32-3bf3-ace4-63c2df59b4c2</id>
+    <updated>2010-08-13T12:21:04Z</updated>
+    <summary>
+      <![CDATA[
+      <p>The talk will introduce GNOME accessibility development and
+      GNOME accessibility testing. Topic covers from GNOME
+      accessibility infrastructure to implementation, GNOME assistive
+      technology tools, GNOME accessibility testing and automation
+      testing.</p>
+      ]]>
+    </summary>
+    <agenda:room>3</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:b22cf6a2-87bc-3544-b3bc-652d8733c89d</agenda:track>
+    <agenda:start>2010-08-14T15:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T16:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:9fee83c0-254a-35a5-b182-e4e14cd6fb2c"/>
+    <agenda:speaker id="urn:uuid:d93d3084-7252-31dd-a3ac-c092b6324d0b"/>
+  </entry>
+  <entry>
+    <title>GNOME in Asia</title>
+    <id>urn:uuid:b92d8023-5a20-3155-ac43-9fbadfa42d87</id>
+    <updated>isotime</updated>
+    <summary>
+      <![CDATA[
+      <p>GNOME.Asia Summit is the yearly GNOME Users and Developers
+      Asian Conference. The event focuses primarily on the GNOME
+      desktop, and also covers applications and the development
+      platform tools. It brings together the GNOME community in Asia
+      to provide a forum for users, developers, foundation leaders,
+      governments and businesses to discuss both the present
+      technology and future developments.  GNOME.Asia Summit was held
+      in Beijing, China during 2008 and in Ho-Chi-Minh City, Vietnam
+      during 2009. We would like to continue finding new national
+      locations as we spread GNOME throughout Asia.The work for
+      GNOME.Asia 2010 is starting already. A good potential spot is
+      Taiwan, where there is interest and where the summit could be
+      co-hosted with local events.  GNOME.Asia is much like a few
+      trees just planted and we want to grow a forest in Asia.  We
+      would like present below point:1. GNOME.Asia Summit plan and
+      road. GNOME in Beijing — Beijing GNOME Users Group3. How to
+      better grow GNOME community in your city</p>
+      ]]>
+    </summary>
+    <agenda:room>3</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:4575ec29-6c75-3f0d-8edc-f18c2872c49b</agenda:track>
+    <agenda:start>2010-08-15T16:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T17:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:de6d329d-2382-36bc-9cf7-f51dfd6ca336"/>
+  </entry>
+  <entry>
+    <title>SFD 2010: Why and Where?</title>
+    <id>urn:uuid:47ce9cac-a247-3b66-949a-a44da7223c8a</id>
+    <updated>2010-08-13T12:29:37Z</updated>
+    <summary>
+      <![CDATA[
+      <p>Software Freedom Day (SFD), going into it’s 6th iteration, is
+      a grassroots celebration and encouragement to use Free and Open
+      Source Software. Why should we care, and what can we do?
+      Frederic Muller, President of Software Freedom International,
+      the non-profit organization behind SFD will try to cover those
+      two crucial aspect of SFD and answer any other question you may
+      have.</p>
+      ]]>
+    </summary>
+    <agenda:room>3</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:4575ec29-6c75-3f0d-8edc-f18c2872c49b</agenda:track>
+    <agenda:start>2010-08-15T15:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T16:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:877ddb32-a47c-3c1c-85df-859eb114f2cc"/>
+  </entry>
+  <entry>
+    <title>Hosting GNOME.Asia is Fun!</title>
+    <id>urn:uuid:f9101381-150a-39f4-b6ec-d6badff2fe0f</id>
+    <updated>2010-08-13T12:32:53Z</updated>
+    <summary>
+      <![CDATA[
+      <p>
+        Involved in GNOME.Asia Summit since its first inception in
+        2008 in Beijing, Pockey will share her experiences of hosting
+        the event, talk about what has happened after each event in
+        different countries and why you should consider participating
+        in the 2011 chapter!
+      </p>
+      ]]>
+    </summary>
+    <agenda:room>3</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:4575ec29-6c75-3f0d-8edc-f18c2872c49b</agenda:track>
+    <agenda:start>2010-08-15T17:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T17:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:3d0a1bc8-0ef7-30ca-9f95-ae9fda1f464f"/>
+  </entry>
+  <entry>
+    <title>Understanding Internals of WebKit/GTK+</title>
+    <id>urn:uuid:e736f237-0a00-3314-9651-bd2a71821ada</id>
+    <updated>2010-08-13T12:37:59Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 The WebKit project is building a Web Content Engine
+                 that is used in Safari, Chrome and various other
+                 browsers and has a rather large and active
+                 contributor base. Like any project of that size it
+                 can be tough to get started. The talk attempts to
+                 show that getting started in one area is quite easy
+                 and is providing hints on how to get started.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>3</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:4575ec29-6c75-3f0d-8edc-f18c2872c49b</agenda:track>
+    <agenda:start>2010-08-15T14:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T15:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:540f0b8f-f2f4-33dc-afd7-059ec3135467"/>
+  </entry>
+  <entry>
+    <title>Building and Using a Memory Profiler</title>
+    <id>urn:uuid:c04e1d3e-53de-32cd-a960-bcdd44af8034</id>
+    <updated>2010-08-13T12:40:02Z</updated>
+    <summary>
+      <![CDATA[
+               <p>This talks explains and demonstrates how the GNOME
+               Memory Profiler (memprof) is working and how and where
+               it is gathering its data and what other things could be
+               used.  </p> ]]>
+    </summary>
+    <agenda:room>3</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:4575ec29-6c75-3f0d-8edc-f18c2872c49b</agenda:track>
+    <agenda:start>2010-08-14T11:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T11:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:540f0b8f-f2f4-33dc-afd7-059ec3135467"/>
+  </entry>
+  <entry>
+    <title>GNOME Build Environment on Solaris</title>
+    <id>urn:uuid:a114496c-d53d-3edc-9cf5-fac0e67ca672</id>
+    <updated>2010-08-13T12:41:15Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 The talk is about GNOME build environment on Solaris,
+                 so-called Common Build Environment(CBE). The main
+                 component of CBE is
+                 pkgbuild(http://pkgbuild.sourceforge.net), which is a
+                 rpmbuild-like tool for building Solaris packages. The
+                 talk will also give the introductions of how we
+                 deliver over 300 packages(GNOME modules as well as
+                 GNOME-based apps) on Solaris.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>2</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:4575ec29-6c75-3f0d-8edc-f18c2872c49b</agenda:track>
+    <agenda:start>2010-08-15T11:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T12:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:99f352da-f014-3a24-98f0-ffd2e9d0c916"/>
+  </entry>
+  <entry>
+    <title>eekboard</title>
+    <id>urn:uuid:539d0ac1-abd6-32d2-984a-d361b905b25c</id>
+    <updated>2010-08-13T12:44:08Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 eekboard is a virtual keyboard software package (aka
+                 on-screen keyboard, 『vkbd』 hereafter), which ships
+                 with a standalone virtual keyboard application
+                 (eekboard), and a library to create keyboard-like UI
+                 (libeek). While there are a number of alternative
+                 vkbd’s for GNU/Linux desktop, our main goal is not to
+                 create a single ultimate vkbd application, but to
+                 provide a library to support diverse implementations
+                 of keyboard-like user interfaces. With the eekboard
+                 library (libeek), a developer is free to combine
+                 different UI toolkits (GTK+, Clutter, …) with
+                 different keyboard layouting mechanisms (XKB,
+                 libxklavier, …), without any knowledge of underlying
+                 implementation details. In this talk we will present
+                 a brief overview of how the library is organized and
+                 how to implement custom keyboard UI and embed it into
+                 your application.
+               </p>
+               <p>
+                 eekboard homepage: http://ueno.github.com/eekboard/
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>2</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:4575ec29-6c75-3f0d-8edc-f18c2872c49b</agenda:track>
+    <agenda:start>2010-08-15T16:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T17:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:19cd958c-0702-3b89-9a55-1eac5b7fc754"/>
+  </entry>
+  <entry>
+    <title>以中文的名义，融入开源世界 (Participating Opensource world, in the name of Chinese)</title>
+    <id>urn:uuid:ad2cd526-52b2-39a9-bb81-7b2ef26795df</id>
+    <updated>2010-08-13T12:47:14Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 主要是介绍目前正在积极运作的致力于中文相关事宜的两岸开放源代码项目：
+               </p>
+               <p>a) 字体 Fonts</p>
+               <p>b) 输入法 Inpput method platforms</p>
+               <p>c) 翻译工程 Translation projects</p>
+               <p>d) 编程项目 Coding projects</p>
+               ]]>
+    </summary>
+    <agenda:room>3</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:4575ec29-6c75-3f0d-8edc-f18c2872c49b</agenda:track>
+    <agenda:start>2010-08-14T16:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T17:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:d6ef5395-8f47-30c0-a87e-94c9844541db"/>
+  </entry>
+  <entry>
+    <title>由馬鈴薯小子看軟體在地化</title>
+    <id>urn:uuid:83f16e5e-44aa-3289-a362-3f3031f012a0</id>
+    <updated>2010-08-13T12:56:18Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 ktuberling(potato guy)為一套OpenSource的幼教語言學習軟
+                 體，本身即具有多國語言架構且客製化容易等優點，為學習語
+                 言的利器。不過該軟體目前的劇本僅有極少數的劇本，也就是
+                 參與客製化與在地化的人並不多。希望藉由分享如何在地化馬
+                 鈴薯小子與延伸製作，推廣自由軟體＂站在巨人的肩膀上，觀
+                 望更遼闊的世界＂的價值。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>3</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:4575ec29-6c75-3f0d-8edc-f18c2872c49b</agenda:track>
+    <agenda:start>2010-08-14T17:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T17:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:0f724b26-99ce-38e7-a4f8-c29ab27add79"/>
+  </entry>
+  <entry>
+    <title>簡介GNOME輔助科技與建議改進事項</title>
+    <id>urn:uuid:54299ce5-4406-3c6e-8606-156a676985bd</id>
+    <updated>2010-08-13T12:58:28Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 簡述GNOME對身障者的重要性，探討使用目的與期望。簡介身
+                 障者所需要使用的輔助功能，與如何協助他們擴大或替代他們
+                 原有的功能。最後論及GNOME輔助科技建議事項，提出幾點輔
+                 助功能需要改進的地方，建議請身障者做測試，以期日後版本
+                 的輔助科技功能可更完善。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>3</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:b22cf6a2-87bc-3544-b3bc-652d8733c89d</agenda:track>
+    <agenda:start>2010-08-14T14:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T15:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:52bd1efb-5106-3c8d-8a33-d84385542c18"/>
+  </entry>
+  <entry>
+    <title>Debian Policy – 5.6.12 Version</title>
+    <id>urn:uuid:83aa7a75-98fb-36c1-a2b2-33b2b61ed06e</id>
+    <updated>2010-08-13T13:01:05Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 釋一般的軟體版號跟 Debian 套件版號之間的關係，還有在
+                 Ubuntu 上的套件版號跟上游的 Debian 套件版號又有什麼關
+                 係，如果自己在打包 Debian 套件應該要使用怎麼樣的版號會
+                 比較好。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>2</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:4575ec29-6c75-3f0d-8edc-f18c2872c49b</agenda:track>
+    <agenda:start>2010-08-15T17:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T17:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:ee17d8ba-71db-3dc8-a64b-8e51eaf4d780"/>
+  </entry>
+  <entry>
+    <title>Introducing GStreamer, the Media Framework on GNU/Linux.</title>
+    <id>urn:uuid:dbb4e5ed-eaf3-31f7-9fff-66ac5d82de72</id>
+    <updated>2010-08-13T13:01:59Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 簡單介紹一下 GStreamer 這個多媒體框架，並且示範一些範例程式。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>2</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:4575ec29-6c75-3f0d-8edc-f18c2872c49b</agenda:track>
+    <agenda:start>2010-08-15T11:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T11:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:ee17d8ba-71db-3dc8-a64b-8e51eaf4d780"/>
+  </entry>
+  <entry>
+    <title>xPad – Building Simple Tablet OS with Gtk/WebKit</title>
+    <id>urn:uuid:fcb09804-2c9d-32e0-a28f-c50ab34f1997</id>
+    <updated>2010-08-13T13:03:34Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Web is becoming the new graphic library, based on the
+                 success of xPUD project, we make it further by adding
+                 following components: 1) WebKit-based browser with
+                 finger scrolling and dobule-tap zooming function, 2)
+                 A BPMF-friendly virtual keyboard integrated with SCIM
+                 input method and 3) Touch-enhanced user interface
+                 based on xPUD’s plate framework. By using simple
+                 software stack, we’re pretty confident that xPad
+                 could be an alternative of MeeGo or Android as a
+                 lightweight and easily customizable tablet OS.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>3</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:4575ec29-6c75-3f0d-8edc-f18c2872c49b</agenda:track>
+    <agenda:start>2010-08-15T11:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T12:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:824c4f41-b0a7-3f67-b7b1-6254ec0d1fc0"/>
+  </entry>
+  <entry>
+    <title>How to Become a Debian Developer</title>
+    <id>urn:uuid:e3c1f17f-51ca-3078-b393-429acd09ca30</id>
+    <updated>2010-08-13T13:05:02Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Debian New Maintainer Process 的中文簡介希望能增加台灣
+                 DD 數量. 同時 DD 越多也越能幫助 Debian community
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>4</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:46e8a463-05f6-3771-a78d-8cee8fdeb8b2</agenda:track>
+    <agenda:start>2010-08-15T11:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T11:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:ad3aa24d-4cd1-3f88-b2df-44f8f4a0c9a1"/>
+  </entry>
+  <entry>
+    <title>Ubuntu Kernel Factory</title>
+    <id>urn:uuid:b4e12f8a-11c3-35a7-afb3-121201989963</id>
+    <updated>2010-08-13T13:08:20Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 分享 Ubuntu Kernel 在開發流程中，怎麼去挑選下一個版
+                 本，檢討上一個版本，實際包裝核心套件，測試及回題回報，
+                 和貢獻回上游，並在維護期內持續維護其安全性的細節和實際
+                 作法。
+               </p>
+               <p>
+                 Share the experience of how to packaging Ubuntu
+                 kernel, including pick up a version, review delta and
+                 config file, testing and report, push back to
+                 upstream, and maintain the released kernel.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>4</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:46e8a463-05f6-3771-a78d-8cee8fdeb8b2</agenda:track>
+    <agenda:start>2010-08-15T11:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T12:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:5c43e86e-fdc2-388b-a39e-3f8a59166be0"/>
+  </entry>
+  <entry>
+    <title>The Culture of Sharing</title>
+    <id>urn:uuid:24f45810-7a98-3bd6-afb6-e44e24850ea7</id>
+    <updated>2010-08-13T13:10:12Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 I would like to explain why the culture of sharing is
+                 the most powerful movement on the internet. Why open
+                 source and creative commons is not only changing the
+                 way we exchange information but also what impact it
+                 has on the industry. How can we even monetize free
+                 information and what are the key elements of managing
+                 a successful community which is based on free content
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>3</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:46e8a463-05f6-3771-a78d-8cee8fdeb8b2</agenda:track>
+    <agenda:start>2010-08-15T13:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T13:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:c654b442-df13-3c0b-8c37-b181f90e7b03"/>
+  </entry>
+  <entry>
+    <title>Processing – 專為設計師、建築師、藝術家設計的簡易又強大的數位藝術工具！</title>
+    <id>urn:uuid:df4886f2-ff64-33e8-9541-7877eabd7f0c</id>
+    <updated>2010-08-13T13:12:29Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Processing是以Java為基礎的數位藝術工具，專為設計師、建
+                 築師及藝術家而設計的。Processing將Java的語法簡化並提供
+                 直覺式地聯想，即使沒有程式背景，仍能很容易地學習並上手。
+                 演講中將介紹Processing的寫法及外掛，也會介紹本人利用
+                 Processing做的數位藝術作品，及國外著名的Processing作品。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>4</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:6223b955-77f6-3ec4-8dd8-166755e06b86</agenda:track>
+    <agenda:start>2010-08-14T15:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T16:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:78a86e78-e830-30be-bbff-728296a25b87"/>
+  </entry>
+  <entry>
+    <title>自由軟體於互動技術</title>
+    <id>urn:uuid:30d22dc5-bba0-3b54-804e-db9c476207be</id>
+    <updated>2010-08-13T13:14:50Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 面對著層出不窮的互動科技新浪潮，無論藝術、設計抑或工程
+                 領域都紛紛跨來靠攏，而FLOSS將為不同領域的人才降低了跨
+                 領域的門檻，大家都能透過經驗分享融入自己原本不擅長的領
+                 域，也能透過合作與討論將各個領域的專長合而為一，蹦出新
+                 的火花！
+               </p>
+               <p>演講主題</p>
+               <p>1. 何謂自由軟體於互動技術</p>
+               <p>2. 自由軟體於互動技術之創作與研究經驗分享</p>
+               <p>3. 國際最新互動技術與資訊分享(ACM SIGGRAPH 2010 Emerging Technologies)
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>3</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:6223b955-77f6-3ec4-8dd8-166755e06b86</agenda:track>
+    <agenda:start>2010-08-14T16:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T16:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:6e2d0ad7-863e-3a09-9ae4-cdb49003a64e"/>
+  </entry>
+  <entry>
+    <title>我是 Programmer 我也想當 Musician</title>
+    <id>urn:uuid:abcd06ab-fdfb-3e6d-8637-933587a2a96f</id>
+    <updated>2010-08-13T13:17:56Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 1.以Ubuntu Studio為例，介紹現在GNU/Linux上的開源音樂創作環境的概觀
+               </p>
+               <p>
+                 2.從程式設計師轉換為音樂人的思路轉換
+               </p>
+               <p>
+                 3.程式設計與音樂創作的異同
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>4</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:6223b955-77f6-3ec4-8dd8-166755e06b86</agenda:track>
+    <agenda:start>2010-08-14T16:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T17:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:6ecebfae-efa2-3b56-9e41-535fa7b98e17"/>
+  </entry>
+  <entry>
+    <title>Elements of Typographic Freedom</title>
+    <id>urn:uuid:1a1ffb9d-e044-30ef-b6b0-28ff41efffca</id>
+    <updated>2010-08-13T13:20:03Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 This talk aims to give an inspiring overview of
+                 excellence in the typographic arts, with a special
+                 emphasis on fonts and world-class book design using
+                 free software. Special emphasis is on the best of
+                 open source font stacks and book design with the TeX
+                 typesetting engine.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>4</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:6223b955-77f6-3ec4-8dd8-166755e06b86</agenda:track>
+    <agenda:start>2010-08-14T17:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T17:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:63199374-4756-321f-9a6b-8848f9a986e3"/>
+  </entry>
+  <entry>
+    <title>自由軟體授權運用的重要概念、類型說明，以及常見爭議</title>
+    <id>urn:uuid:90b2cf60-8a5b-3c88-b63e-06b80c47858d</id>
+    <updated>2010-08-13T13:22:01Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 以自由軟體授權元件來加速產品開發已漸成時代趨勢，但隨著
+                 大型商業利用活動的進展，許多自由軟體授權運用的重要概念
+                 仍未完全普及與被正確的認識，以至後續衍生出許多授權方面
+                 的爭議問題，此講場將依下列要項進行說明，讓參與者能夠透
+                 過此講場，更深刻的掌握 COSCUP / GNOME.Asia 2010 各法律
+                 議程的重要內容：
+               </p>
+
+               <p>1、與自由軟體程式開發有關的智慧財產權利</p>
+               <p>2、自由軟體授權的常見名詞、重要概念，與類型說明</p>
+               <p>3、商業運用自由軟體的衍生爭議</p>
+               ]]>
+    </summary>
+    <agenda:room>2</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:282bfbce-10f8-396c-bb96-fac3987d15c3</agenda:track>
+    <agenda:start>2010-08-14T15:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T16:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:36e09121-92f9-30ca-b211-c69a0806e764"/>
+  </entry>
+  <entry>
+    <title>GNU GPL Compliance in Embedded Devices</title>
+    <id>urn:uuid:ee774d19-f666-316b-920e-e9083bf4cb31</id>
+    <updated>2010-08-13T13:24:21Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 GNU/Linux is a the most popular choice of an
+                 Operating System in many areas of Embedded
+                 computing. It can be found in embedded networking
+                 equipment, personal navigation systems, media
+                 players, mobile phones to print servers, NAS,
+                 in-flight entertainment systems and even bicycle
+                 ergometers.  Using the Linux kernel and other GPL
+                 licensed software is a convenient and especially
+                 inexpensive choice. However, it is still copyrighted
+                 software subject to a license: The GNU General Public
+                 License.  The presentation will look at typical GPL
+                 violations in the embedded market and how they could
+                 have easily been avoided by little extra effort in
+                 product development.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>2</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:282bfbce-10f8-396c-bb96-fac3987d15c3</agenda:track>
+    <agenda:start>2010-08-14T16:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T17:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:a4483bf9-0ad8-3d7f-a78b-319ef2f7c607"/>
+  </entry>
+  <entry>
+    <title><![CDATA[Ensuring Freedom of Action in Free Software Through Collaboration & Partnership]]></title>
+    <id>urn:uuid:0019448c-714b-3f63-b7a8-796c86deda27</id>
+    <updated>2010-08-13T13:26:05Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Free Software allows great freedom of action and
+                 potential for collaboration. It creates real value,
+                 with research by IDC suggesting that Free Software
+                 will power a 49 billion USD economy by 2011. The
+                 question is how to maintain and grow Free Software’s
+                 value without compromising freedom. This speech will
+                 explore Open Invention Network’s contribution, and
+                 explain its mission to promote and protect innovation
+                 through support around patent issues and defensive
+                 publications.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>2</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:282bfbce-10f8-396c-bb96-fac3987d15c3</agenda:track>
+    <agenda:start>2010-08-14T16:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T16:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:74c1452e-d192-3428-921c-286d1c6ddeff"/>
+  </entry>
+  <entry>
+    <title>Implementation of a FOSS License Compliance Program</title>
+    <id>urn:uuid:f248568e-5b5b-3c23-8795-43e1bb22fbeb</id>
+    <updated>2010-08-13T13:31:54Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 An overview on motivations, tools and challenges to
+                 implement FOSS license compliance in hardware
+                 manufacturing environments. The presentation will
+                 focus on the practical steps that need to be taken
+                 within a company to implement legal compliance and
+                 the need for cooperation throughout the supply
+                 chains.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>2</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:282bfbce-10f8-396c-bb96-fac3987d15c3</agenda:track>
+    <agenda:start>2010-08-14T17:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T17:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:708b6eb8-7a8d-3a0f-b41e-ed6169c293e7"/>
+  </entry>
+  <entry>
+    <title>Adapting UCD for Open Source Software Development</title>
+    <id>urn:uuid:3251dc97-ec9b-34e9-b70a-bf49363e7ae0</id>
+    <updated>2010-08-13T13:34:01Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 我想嘗試用使用者為本的設計方法（user-centered design,
+                 UCD）來協助處理開源/自由軟體在開發上可能遇到的問題。以
+                 Mozilla Taiwan 進行中的「抓火狐 (gfx.tw）」網站為對
+                 象，透過訪談來瞭解開發者目前面臨的非技術性問題，希望能
+                 用UCD的方法來為這些問題提供解答。內容比較會是進行中的
+                 專案報告，提出階段性的發現與心得。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:4c26dad5-d1fc-3471-9dc7-f716a4d7147a</agenda:track>
+    <agenda:start>2010-08-15T13:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T14:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:875a121a-dd9e-3f80-953f-18a05c8b44c4"/>
+  </entry>
+  <entry>
+    <title>Android UI Design Pattern</title>
+    <id>urn:uuid:b6f5b3f6-9f97-3599-aafc-0b2c96218884</id>
+    <updated>2010-08-13T13:35:48Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 In this talk, the speaker will show the types of
+                 patterns developers can use to build a great Android
+                 application. He’ll share UI best practices and things
+                 developers should avoid.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:4c26dad5-d1fc-3471-9dc7-f716a4d7147a</agenda:track>
+    <agenda:start>2010-08-15T14:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T14:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:9a09d92f-ea7d-3558-9907-921a888c0654"/>
+  </entry>
+  <entry>
+    <title>Exploring New Paradigms of Computing for GNOME</title>
+    <id>urn:uuid:2c99d252-4924-3a6d-9460-357cf9c07d07</id>
+    <updated>2010-08-13T13:37:13Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 User Experience is of primary importance to GNOME,
+                 like to other software projects. The demand for
+                 well-designed software is exponentially growing,
+                 which is magnified by issues like the increasing
+                 number of computing distractions and the need to
+                 focus on and speed up productive work. To address
+                 this, GNOME 3 is redefining the User Experience of
+                 the GNOME desktop with GNOME Shell. On the other
+                 hand, other pieces of software also created new
+                 paradigms of computing for improved User
+                 Experience. Software makers like Apple and Microsoft
+                 are revolutionizing computing through operating
+                 systems like iOS and Windows Phone 7. Paradigms like
+                 application- and context-centrism were
+                 introduced. Though those operating systems are
+                 initially built for smartphones, it is suggested that
+                 those new computing paradigms should move to people’s
+                 primary computers. With new ideas and inspirations,
+                 GNOME Shell can be shaped to create an even more
+                 revolutionary paradigm of desktop computing.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:4c26dad5-d1fc-3471-9dc7-f716a4d7147a</agenda:track>
+    <agenda:start>2010-08-15T13:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T13:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:463382f1-7df1-3f74-b498-12516f11024d"/>
+  </entry>
+  <entry>
+    <title>OsmocomBB: An Open Soruce GSM Baseband Firmware</title>
+    <id>urn:uuid:0401381d-7fc8-387b-8d59-d16ee4dac219</id>
+    <updated>2010-08-13T13:40:54Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Project OsmocomBB is the worlds first Free/Open
+                 Source Software project to implement a GSM protocol
+                 stack as well as hardware-related drivers for a GSM
+                 baseband processor.  This presentation will introduce
+                 the software architecture, supported hardware and
+                 include a project demonstration.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>4</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:27728505-318b-32c6-b5d1-d2339f784fb9</agenda:track>
+    <agenda:start>2010-08-15T16:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T17:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:a4483bf9-0ad8-3d7f-a78b-319ef2f7c607"/>
+  </entry>
+  <entry>
+    <title>Linpus Lite MeeGo Edition: Enabling MeeGo to Production</title>
+    <id>urn:uuid:ca0e9c4a-e042-3294-9166-25d8fa664647</id>
+    <updated>2010-08-13T13:42:04Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 The presentation will talk about Linpus’ enhancements
+                 on both MeeGo netbook and Slate editions and share
+                 how to bring MeeGo into production based on the
+                 previous experience from Linpus.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>2</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:27728505-318b-32c6-b5d1-d2339f784fb9</agenda:track>
+    <agenda:start>2010-08-14T14:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T14:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:fbe71d5f-e36f-3820-a700-0211655e6464"/>
+  </entry>
+  <entry>
+    <title>Android-x86 Open Source Project</title>
+    <id>urn:uuid:9a315ba2-aa01-3bbc-8084-ce5810c95e0c</id>
+    <updated>2010-08-13T13:43:54Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Android-x86 是將 Google Android 作業系統移植至 x86 平
+                 台，特別是小筆電與小型可攜式裝置的開放源碼計劃。希望能
+                 讓 Android 在 x86 平台的開發有統一的窗口，以便整合各方
+                 力量，吸引更多 Android 的開發高手加入，發揮開放源碼的
+                 滾雪球效應。為 Android 在 x86 平台上的應用，提供完整的
+                 解決方案。採用 Apache License 2.0 授權。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>4</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:27728505-318b-32c6-b5d1-d2339f784fb9</agenda:track>
+    <agenda:start>2010-08-15T17:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T17:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:6c8cc760-41dc-3443-aa70-0b6516d38e43"/>
+  </entry>
+  <entry>
+    <title>打造特製的 Android Toolchain</title>
+    <id>urn:uuid:a6f85e4f-e056-3109-8c54-3f6dbfc89353</id>
+    <updated>2010-08-13T13:45:09Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 本議程探討 0xlab 近來的實驗，從修改 Android 的 GNU
+                 Toolchain 到提供 source-to-source compiler，提出若干基
+                 於特定需求，從而發展的編譯器技術的新應用
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>4</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:27728505-318b-32c6-b5d1-d2339f784fb9</agenda:track>
+    <agenda:start>2010-08-15T16:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T16:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:a0ff19fb-c417-37d3-9e92-604636fa02d9"/>
+  </entry>
+  <entry>
+    <title>Have Fun on Andes Platform — Game Emulator an Overview</title>
+    <id>urn:uuid:6abc5ad2-8687-3185-9f99-7e9ca04b08e3</id>
+    <updated>2010-08-13T13:46:54Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 生活不忘娛樂，來點輕鬆的小遊戲增添一些歡樂吧!使用
+                 Andes Core™ N1213的platform SoC 所建構的發展系統硬體主
+                 板，並搭配 3.5 吋 320×240 畫質Panel，展示了此平台開發
+                 掌上型遊戲機，遊戲軟體與 Andes Core 的完美結合。 趁著
+                 這次 COSCUP / GNOME.Asia 的機會跟大家分享一些在
+                 Embedded Linux 上執行 Emulator 的使用心得。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>4</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:27728505-318b-32c6-b5d1-d2339f784fb9</agenda:track>
+    <agenda:start>2010-08-15T14:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T17:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:d972f8b7-c298-374c-8332-fd4e65d9d1a6"/>
+  </entry>
+  <entry>
+    <title>A Safe and Stateless Platform – Introduction to Google Chrome OS Security Model</title>
+    <id>urn:uuid:d3b71252-1dda-3de8-91d8-5e3021cd3bbd</id>
+    <updated>2010-08-13T13:48:41Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 隨著網路技術的普及，電腦病毒(virus)、間諜程式
+                 (spyware)及木馬(trojan) 已成為每位使用者擺脫不了的惡
+                 夢；盡管安裝了再多的掃毒與防護程式， 層出不窮的系統安
+                 全漏洞總是會讓人擔心自己的電腦是否已淪為被遠端操控的
+                 眾多受害者之一。這場演講將介紹 Google Chrome OS 如何在
+                 不受舊有架構的限制下，重新設計一個從硬體開機時就環環相
+                 扣的安全認證系統。使用者將可輕易的確認自己的系統是否已
+                 被竄改，也有方便的機制可隨時還原至未經修改的版本，同時
+                 兼顧開發者與使用者對自己電腦的完整控制權。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>4</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:27728505-318b-32c6-b5d1-d2339f784fb9</agenda:track>
+    <agenda:start>2010-08-15T15:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T16:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:b1967748-5d9e-35b9-91dc-d900d02b782a"/>
+  </entry>
+  <entry>
+    <title>Nokia Symbian 新一代作業系統演進：從 S60 5.0、Symbian^3 到 Symbian^4</title>
+    <id>urn:uuid:ed3cf703-89e1-372c-abfb-4ae6d1e9fdcd</id>
+    <updated>2010-08-13T13:50:28Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 自 Nokia 5800 XpressMusic 開始採用新一代作業系統
+                 Nokia S60 5.0 以來，提供了觸控操作與更為個人化的使用者
+                 介面，而今年即將問世的第一款Symbian^3 作業系統手機
+                 Nokia N8 即將帶來什麼新的功能與設計，Nokia行動解決方案
+                 總裁 Anssi Vanjoki 日前於官方部落格中揭露 的Symbian^4
+                 又會帶來怎樣嶄新的面貌？在這場分享中希望能帶給您更進一
+                 步的資訊。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>2</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:27728505-318b-32c6-b5d1-d2339f784fb9</agenda:track>
+    <agenda:start>2010-08-14T14:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T15:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:d6bb5ec0-dad8-3409-8e14-a78becd614f7"/>
+  </entry>
+  <entry>
+    <title>Android Game Engine 比較</title>
+    <id>urn:uuid:8bb5f840-3ba5-36ba-a79a-ce1b32f3b89e</id>
+    <updated>2010-08-13T13:52:09Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 隨著 Android的蓬勃發展，遊戲亦如雨後春筍般冒出。避免重
+                 複造輪子，勢必要藉助現有的遊戲引擎，讓遊戲開發者可以專
+                 注在遊戲的最核心價值 — 樂趣。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>4</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:27728505-318b-32c6-b5d1-d2339f784fb9</agenda:track>
+    <agenda:start>2010-08-15T13:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T13:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:2f4208ca-2108-3979-a27c-e29ef33a76e7"/>
+  </entry>
+  <entry>
+    <title>Porting a New Architecture to OpenWrt Project</title>
+    <id>urn:uuid:d3d43eff-bea3-33dc-b153-c0ec39504385</id>
+    <updated>2010-08-13T13:53:40Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 我們曾經在歷屆的開源研討會，談過如果台灣的網通產業，要
+                 提昇軟體附加價值，做一些實用又有去的產品，使用
+                 OpenWrt 來製作軟體，也許是一個有效而且快速的方案。現今
+                 的 OpenWrt 已經非常成熟，但是我們將談談，如何從 IP 廠
+                 商，到 SoC 廠商，在實務上如何支援 OpenWrt。我們將分享
+                 如何移植一個新的計算機架構到 OpenWrt，也會展示用
+                 OpenWrt 打造的 Thin Client桌面。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>4</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:27728505-318b-32c6-b5d1-d2339f784fb9</agenda:track>
+    <agenda:start>2010-08-15T13:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T14:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:98030920-a637-34f8-9be9-11bb49149425"/>
+  </entry>
+  <entry>
+    <title>社文字D：轟趴開交物語 / Socialtext 4: A tale of Shindig and OpenSocial</title>
+    <id>urn:uuid:10125b7c-5e3c-352d-9d09-0e28969af71c</id>
+    <updated>2010-08-13T13:55:39Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 據維基百科記載：家居派對（Home party），俗稱轟趴，是舉
+                 辦在一個早已約定好的房子內的派對。這場派對叫 Shindig，
+                 這個約定叫 OpenSocial，這間房子叫 Socialtext。派對的成
+                 員來自四面八方，包括華納、藝電、通用汽車、DHL 快遞、英
+                 代爾、紅十字會、ICANN、Perl 基金會等六千多個組織。在派
+                 對裡，來賓們逐漸熟習開源社群常用的協作工具，用它們來跨
+                 越組織裡部門科層的藩籬，協力擺脫讓人忙到不可開交的資訊
+                 焦慮。這三十分鐘裡，我會介紹建立“企業人際層”所牽涉到的
+                 幾種技術協定，以及相關的各項開源專案。☺
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:1864c358-0711-3cd4-8ac5-eca2e56b3d61</agenda:track>
+    <agenda:start>2010-08-14T14:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T14:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:3c30078c-513e-3a45-a65d-f363d0d02644"/>
+  </entry>
+  <entry>
+    <title>nodejs 於互動式網站之應用</title>
+    <id>urn:uuid:09d2ee31-7173-3f50-bfdd-c758479b39d7</id>
+    <updated>2010-08-13T13:57:34Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 nodejs是Ryan Dahl所開發的evented I/O框架, 使用V8引擎為
+                 基礎, 具有高效且簡易開發的特徵, 適合開發高負載網站後端.
+                 相對於過去大量使用threads的server程式, nodejs處理連線
+                 上的成本低廉, 同時Ryan Dahl在API設計上, 大量使用
+                 javascript的event與callback語言特性, 大幅降低開發難度,
+                 也提供了良好的維護性. 現今互動式web應用大量採用comet等
+                 技術, 網站後端連線也日趨複雜, nodejs於這些應用提供了良
+                 好的解決方案, 我們將對nodejs於互動網站應用做實務探討.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:1864c358-0711-3cd4-8ac5-eca2e56b3d61</agenda:track>
+    <agenda:start>2010-08-14T14:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T15:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:2b553e5e-af20-39b1-9bb9-4fb73e31fed1"/>
+  </entry>
+  <entry>
+    <title>Writing Web Applications in C++!?</title>
+    <id>urn:uuid:1de1e14f-e3b3-3f77-8b8a-7b8902e2fcab</id>
+    <updated>2010-08-13T13:58:57Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Although browser JavaScript performance is rapidly
+                 improving, there are still applications for which
+                 native code is a better choice. Learn about Google’s
+                 Native Client technology and how you can use it to
+                 build rich applications with all of the advantages
+                 and power of the web.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:1864c358-0711-3cd4-8ac5-eca2e56b3d61</agenda:track>
+    <agenda:start>2010-08-14T15:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T16:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:9fc0a263-281d-3106-8e33-de1c8a4b8c41"/>
+  </entry>
+  <entry>
+    <title>HTML5: Building the Next Generation Web Applications</title>
+    <id>urn:uuid:d94b606b-2fb8-3119-bc3b-92be052c1515</id>
+    <updated>2010-08-13T14:00:32Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 This session covers topics like HTML5, CSS3, WebM,
+                 and Chrome’s Developer Tools. Learn how to design web
+                 applications that leverage these exciting APIs!
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:1864c358-0711-3cd4-8ac5-eca2e56b3d61</agenda:track>
+    <agenda:start>2010-08-14T11:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T12:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:9fc0a263-281d-3106-8e33-de1c8a4b8c41"/>
+  </entry>
+  <entry>
+    <title>HTML5 電子書閱讀器</title>
+    <id>urn:uuid:6c20aba9-bd72-3634-bd13-ee255c647057</id>
+    <updated>2010-08-13T14:01:40Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 最近一年多來, Amaozn 的 Kindle 與其他同採 e Ink 電子書
+                 閱讀器以及 iPad 的問世帶來新一波電子書熱潮。在各式各樣
+                 的電子書規格中較有公開標準的是 IDPF 所定的 EPUB 格式。
+                 目前通用的 EPUB 版本基本上是使用的是 XML 和 XHTML 1.1。
+                 不過隨著 HTML5 的普及與人們想在電子書求新求變的想
+                 法，EPUB 也將開始導入一些 HTML5 的特性如 <video>,
+                 <audio>, <canvas>。目前網路尚可以找到一些用
+                 JavaScript 做的 epub reader, 不過都是需要有 web
+                 server 來放 JavaScript 以及讀者要讀得電子書，這種做法
+                 有兩個大問題，第一是需要 always-connected 的網路還需要
+                 有一定頻寬, 第二是 web 或者說 HTML5 終究不是萬能, 有時
+                 也需要做 native application。基於這兩個原因，我們開始
+                 在 iPhone/Android 上用 UIWebView/WebView 加上 HTML5 以
+                 及 Objective-C/Java 做電子書閱讀器。在這個 talk 中, 我
+                 們將回顧 EPUB, 然後簡介用 XHTML5 在 iBooks.app 中可做
+                 的事, 接著會講用 UIWebView/WebView + HTML5 + native
+                 code 的經驗。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:1864c358-0711-3cd4-8ac5-eca2e56b3d61</agenda:track>
+    <agenda:start>2010-08-14T16:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T17:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:2d65b838-3906-3ce0-bc17-16c59a02d78c"/>
+  </entry>
+  <entry>
+    <title>Frontend Development Enviornment</title>
+    <id>urn:uuid:a570bb38-5ec8-3106-adb0-68fe171b2f2b</id>
+    <updated>2010-08-13T14:03:14Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 <p>1. Solid code Standards</p>
+                 <p>  * Make it difficult to make mistakes – Engineer can only commit your code after standard checking tool.</p>
+                 <p>2. Modular development (Nicholas Zaka’s Idea)</p>
+                 <p>  * YUI Implementation</p>
+                 <p>  * JS/CSS Combiner & Minifier on the fly</p>
+                 <p>3. Make good uses of debugging proxy</p>
+                 <p>  * Eliminate Code Difference w/ Production</p>
+                 <p>  * Hijacking the page</p>
+                 <p>4. Static Files Deployment Tasks</p>
+                 <p>  * Image optimization check/task</p>
+                 <p>  * Only submit combined & minified JS & CSS</p>
+                 <p>5. JavaScript I18N/L10N using YUI Intl</p>
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:1864c358-0711-3cd4-8ac5-eca2e56b3d61</agenda:track>
+    <agenda:start>2010-08-14T16:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T16:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:52587fee-e935-393a-8da3-304db0927d2f"/>
+  </entry>
+  <entry>
+    <title>Jetpack SDK: 瀏覽器擴充套件的新可能性</title>
+    <id>urn:uuid:ca1a8aa0-bb01-3dac-8108-97ee353fcc5d</id>
+    <updated>2010-08-13T14:05:59Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 在各家瀏覽器紛紛推出擴充瀏覽器的新 API 形式之
+                 時，Mozilla 也正研發 Jetpack SDK 作為新的擴充套件開發
+                 方案。驅動 Jetpack SDK 的「CommonJS」函式庫替套件中
+                 JavaScript 的模組管理和擴充性帶來了新的可能、而在支援
+                 XUL 的同時提供 HTML5 的支援也是 Jetpack SDK API 中的發
+                 展重點。本講希望將用最短的時間帶大家體會 Jetpack SDK
+                 下，未來瀏覽器擴充開發的新可能性！
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:1864c358-0711-3cd4-8ac5-eca2e56b3d61</agenda:track>
+    <agenda:start>2010-08-14T17:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T17:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:cc191c4e-c6cb-390b-a31c-41594bfd122d"/>
+  </entry>
+  <entry>
+    <title>HTML5 for Programmers</title>
+    <id>urn:uuid:cc3d7421-1b67-379a-9eb7-c46f55a132cb</id>
+    <updated>2010-08-13T14:07:28Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 This talk presents an overview of new programming
+                 features in HTML5 and some related draft standards
+                 for browser technologies. The talk is designed to be
+                 of high interest both to non-Javascript programmers —
+                 such as, for example, Python or Java programmers —
+                 who may not necessarily already familiar with
+                 Javascript-based Web programming, but also to
+                 programmers who *are* already Javascript-savvy but
+                 want to learn what’s new in HTML5 that they can use
+                 *now*, today. In that spirit, the talk will focus on
+                 HTML5 programming features that you can already use
+                 in current development versions of major browsers.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:1864c358-0711-3cd4-8ac5-eca2e56b3d61</agenda:track>
+    <agenda:start>2010-08-14T11:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T11:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:20e2076b-fb61-3ba8-b82a-41b17fb2894c"/>
+  </entry>
+  <entry>
+    <title>網頁設計師必備: CSS3 新功能大補帖</title>
+    <id>urn:uuid:f2890b38-d907-3316-a444-9f151a47f609</id>
+    <updated>2010-08-13T14:08:59Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 -CSS3新功能簡介以及W3C現行所規範與未來即將通過的CSS3
+               </p>
+               <p>-現行各瀏覽器與裝置支援CSS3狀況</p>
+               <p>
+                 -如何做出在各瀏覽器與各裝置皆支援CSS3,注意事項與案例分享
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>3</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:1864c358-0711-3cd4-8ac5-eca2e56b3d61</agenda:track>
+    <agenda:start>2010-08-14T11:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T12:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:eefb14ed-3d6d-3f8c-ab1b-f6c0fde558df"/>
+  </entry>
+  <entry>
+    <title>Sahana Taiwan Development</title>
+    <id>urn:uuid:87fca92c-4a80-3dbf-9483-d45c6ea638d9</id>
+    <updated>2010-08-13T14:10:26Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Sahana 是一套開放原碼災難管理系統。2004年南亞海嘯災
+                 後，斯里蘭卡的資訊志工啟動災難管理系統開發，之後吸引全
+                 球開放軟體開發者陸續加入，佈建地區由南亞擴散到世界各
+                 地，並獲得包括 IBM、Google 等商業公司的支持。2009年7月
+                 Sahana Software Foundation 在美國加州成立，專注於慈善、
+                 科學與教育的領域，致力 Sahana 系統的長期開發與運作。
+               </p>
+
+               <p>
+                 台灣則在八八風災期間，由中研院資訊科技創新研究中心蕭景
+                 燈博士、開拓文教基金會及國內熱心的資訊志工，架設
+                 Sahana 系統，成立 Sahana Taiwan 工作小組，邀及台灣社群
+                 開發人員參與系統改進，陸續進行平台中文化及本土化工作，
+                 並獲得資訊工業策進會專支處提供經費支援社群開發，讓
+                 Sahana 中文平台成為一個共同園地持續累積各界貢獻。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>3</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:1864c358-0711-3cd4-8ac5-eca2e56b3d61</agenda:track>
+    <agenda:start>2010-08-14T11:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T11:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:f3328aa1-91f3-3b5c-93e4-bf2ee48ddbeb"/>
+  </entry>
+  <entry>
+    <title>快速佈署叢集式的搜尋引擎(CrawlZilla)</title>
+    <id>urn:uuid:50734e82-e7b5-326c-80cb-0fce5df743bc</id>
+    <updated>2010-08-13T14:12:35Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Nutch 是目前最知名也是最好的 opensource 搜尋引擎專案之
+                 一，想製作自己的客製化搜尋引擎？ 用 Nutch 就對了！但是
+                 Nutch 的設定繁瑣，因此我們之前試著開發 CrawlZilla 來幫
+                 助簡化安裝、設定以及操作的步驟。只要安裝 CrawlZilla 後
+                 就，再加上幾個指令，就可以輕鬆的產生出你自己的搜尋引擎
+                 囉！ 目前正開始第二版本的 CrawlZilla v0.2 ，希望能開發
+                 出功能更強，選項更多，但操作更人性化的專案。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:1cd994ce-855d-38c5-a133-2b0f5014772a</agenda:track>
+    <agenda:start>2010-08-15T16:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T16:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:34197b0c-177c-3bfc-9b0d-641464cdf48f"/>
+  </entry>
+  <entry>
+    <title>Yahoo Traffic Server, a Powerful Cloud Gatekeeper</title>
+    <id>urn:uuid:e4a63b5c-35b7-353b-91de-9d9acdfee601</id>
+    <updated>2010-08-13T14:13:43Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Yahoo Traffic Server (YTS for short) is used in-house
+                 at Yahoo to deliver　significant amount of HTTP
+                 traffic. It enables session management,
+                 authentication, configuration management, load
+                 balancing, and routing for entire cloud computing
+                 software stacks. YTS was designed as a multi-threaded
+                 event-driven model, and scales very well on modern
+                 multi-core servers. It can be used to proxy and cache
+                 a variety of workloads, from single site acceleration
+                 to CDN deployment and very large ISP proxy
+                 caching. With a quad core 1.86GHz processor, YTS can
+                 do more than 35,000 requests per second for certain
+                 traffic patterns. YTS is serving more than 30 billion
+                 Web objects a day across the Yahoo! network,
+                 delivering more than 400 terabytes of data per day.
+                 YTS is a piece of software initially acquired by
+                 Yahoo! from Inktomi. We actively developed and used
+                 YTS in recent years. In Nov/2009, Yahoo donate the
+                 source to Apache Software Foundation.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:1cd994ce-855d-38c5-a133-2b0f5014772a</agenda:track>
+    <agenda:start>2010-08-15T16:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T17:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:96d10f81-58a7-3c14-a4ac-9a37001b9b16"/>
+  </entry>
+  <entry>
+    <title>Building a Cloud Computing Platform by Using Open
+Source Software</title>
+    <id>urn:uuid:f9636c20-9acc-3390-b968-ff3d9ca500c9</id>
+    <updated>2010-08-13T14:15:05Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 There are seven major IaaS and PaaS technologies that must be configured together in the development and deployment of a SaaS such as GMail or Facebook. The seven are
+               </p>
+                 <p>- virtual machines</p>
+                 <p>- dynamic provisioning</p>
+                 <p>- map reduce</p>
+                 <p>- data storage and distribution</p>
+                 <p>- workflow management</p>
+                 <p>- unified messaging</p>
+                 <p>- analytics</p>
+                 
+                 <p>this talk will introduce the audience to the
+                 available options in open source when it comes to
+                 choosing these technologies.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:1cd994ce-855d-38c5-a133-2b0f5014772a</agenda:track>
+    <agenda:start>2010-08-15T15:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T16:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:919d2e1c-4ae3-3dc8-a694-5656ba560c3e"/>
+  </entry>
+  <entry>
+    <title>Solr on Cassandra</title>
+    <id>urn:uuid:f792bf15-01a8-3211-9534-9a50a427d322</id>
+    <updated>2010-08-13T14:18:02Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Solr on Cassandra
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:1cd994ce-855d-38c5-a133-2b0f5014772a</agenda:track>
+    <agenda:start>2010-08-15T17:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T17:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:b4a23bd4-072b-31b3-910e-90562c2fab72"/>
+  </entry>
+  <entry>
+    <title>Cloud Experience – from Google to Delta</title>
+    <id>urn:uuid:89a87cea-0dc1-3a7c-b93f-37ab94cd5e36</id>
+    <updated>2010-08-13T14:19:07Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 最近兩年大家都在談雲端運算，很多人都想靠雲端運算賺錢。
+                 到底什麼是雲端運算？很多人說 Google 是雲端運算的先
+                 驅，Google 究竟做了什麼？翟本喬和你分享他在Google的經
+                 驗，以及未來台達電子在雲端運算發展的方向。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:1cd994ce-855d-38c5-a133-2b0f5014772a</agenda:track>
+    <agenda:start>2010-08-15T14:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T15:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:e351d212-5e47-32dc-8d68-7e99d9284d75"/>
+  </entry>
+  <entry>
+    <title>Implementation of websocket server program</title>
+    <id>urn:uuid:7ab20bae-4224-3611-8d3a-7d70761a1969</id>
+    <updated>2010-08-13T14:20:33Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 websocket protocol 是由 w3c 所提出的標準通訊協定，由於
+                 websocket protocol 並非建立在 http 之上，因此我們需要
+                 新的 Server 端程式用來與瀏覽器進行溝通，本演講將會展示
+                 實作的成果、並探討相關議題。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>2</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:1cd994ce-855d-38c5-a133-2b0f5014772a</agenda:track>
+    <agenda:start>2010-08-15T14:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T15:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:bc2436f7-0b92-3692-9fdc-d044167f6595"/>
+  </entry>
+  <entry>
+    <title>The NoSQL Movement: CouchDB as an example</title>
+    <id>urn:uuid:e8e47bd6-567c-3cf9-bd97-0926d2333d1c</id>
+    <updated>2010-08-13T14:21:50Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 1. 探討 Database 技術的變遷, 資料格式的演進
+               </p>
+               <p>2. SQL database 目前所遇到的問題, 以及為什麼會產生 NoSQL 運動</p>
+                 <p>3. 藉由分享 CouchDB 的使用經驗, 以 CouchDB 為例, 介紹 Non-relational database 如何跳脫 SQL 的思維幫你解決問題</p>
+                 <p>4. Non-relational database 真的是 Non-relational 嗎?</p>
+                 <p>5. Key-value database, document database 跟 graph database 之間的關係</p>
+                 <p>6. Database 發展的趨勢</p>
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>2</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:1cd994ce-855d-38c5-a133-2b0f5014772a</agenda:track>
+    <agenda:start>2010-08-15T14:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T14:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:d9486578-c0c1-3c44-889b-161ed8ddba0b"/>
+  </entry>
+  <entry>
+    <title>Debugging Linux Kernel by Ftrace</title>
+    <id>urn:uuid:df09ada8-3184-3a7f-a1ca-a556e1897ef6</id>
+    <updated>2010-08-13T14:24:07Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Ftrace 是直接由 Linux kernel 支援的除錯工具。不需要特
+                 別安插程式碼，就可以在執行時期觀查 kernel 運作的情形。
+                 而且在不使用的時候不會影響系統效能。將討論 Ftrace 運作
+                 原理及其使用方式。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:a02bfc40-a4e6-3837-a527-d51c35287ece</agenda:track>
+    <agenda:start>2010-08-15T11:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T11:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:c03615db-c269-381e-8282-1fd3eaa3aec4"/>
+  </entry>
+  <entry>
+    <title>打雜的事情交給 Ant 吧</title>
+    <id>urn:uuid:9ccf039c-80b0-3333-8a73-b276d8aabb71</id>
+    <updated>2010-08-13T14:25:41Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 1. Ant 功能介紹
+               </p>
+               <p>2. 程式開發應用 javac,java,svn</p>
+               <p>3. 遠端控制應用 ftp,scp,sshrobot(獨家的喔!)</p>
+               <p>4. Ant task DIY !!</p>
+               <p>5. 程序員有哪些打雜工作呢?</p>
+               <p>
+                 6. 為什麼不用 shell script 或是 make?
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>4</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:a02bfc40-a4e6-3837-a527-d51c35287ece</agenda:track>
+    <agenda:start>2010-08-14T11:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T12:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:e79e51ef-a7b6-37ea-a816-0e1653292346"/>
+  </entry>
+  <entry>
+    <title>Doxygen – 文件、程式一家親文件、程式一家親</title>
+    <id>urn:uuid:0049b744-6254-34a0-a68a-faf661b51356</id>
+    <updated>2010-08-13T14:27:28Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 是否永遠沒空寫文件? 或者為了文件在熬夜? 其實你不用這麼
+                 辛苦，寫完程式的同時，你也可以完成文件。透過工具的輔
+                 助，文件可以是 coding 的一部分，讓你快快樂樂的作文件。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>4</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:a02bfc40-a4e6-3837-a527-d51c35287ece</agenda:track>
+    <agenda:start>2010-08-14T14:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T14:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:316763ee-dd58-3b47-afca-22aba6ef37c2"/>
+  </entry>
+  <entry>
+    <title>OpenOffice.org 的 UNO 魔術—那些 MS Office做不到的事</title>
+    <id>urn:uuid:24d7a556-6cce-3248-b9ca-16244fdbd3f0</id>
+    <updated>2010-08-13T14:28:41Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 OpenOffice.org 的API稱為 UNO (Universal Network
+                 Object) ，是個跨語言通用的網路 (Network) 物件(Object)
+                 系統。透過 UNO API，開發者可以操控 OpenOffice.org 的
+                 Writer、Calc、Impress…等，做出各式各樣的神奇魔術。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>4</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:a02bfc40-a4e6-3837-a527-d51c35287ece</agenda:track>
+    <agenda:start>2010-08-14T11:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T11:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:a7f1434b-bf0d-3f65-9404-66aa0ae4ccf9"/>
+  </entry>
+  <entry>
+    <title>ScalaTest－連貓都會的單元測試與 BDD</title>
+    <id>urn:uuid:e484a3bc-6af7-34fa-a715-f53bda17b035</id>
+    <updated>2010-08-13T14:30:05Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 ScalaTest 是一套支援多重種測試風格的單元測試框架，提供
+                 了程式開發人員以相當直覺的方式撰寫單元測試案例，並且可
+                 應用至 Scala 及 Java 程式開發環境中。在這個講題中，我
+                 們將示範如何使用 ScalaTest，以 BDD 的方式開發 Java 程
+                 式。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>1</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:a02bfc40-a4e6-3837-a527-d51c35287ece</agenda:track>
+    <agenda:start>2010-08-15T11:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T12:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:1fa871ef-a3f4-3db3-b64d-b89059539ab2"/>
+  </entry>
+  <entry>
+    <title>不用 Framework，一天完成網站的多國語系製作</title>
+    <id>urn:uuid:27fedc95-b9cd-3d43-b3bb-dd12aeab33ea</id>
+    <updated>2010-08-13T14:31:18Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 隨著 Facebook、Twitter 等網站的進入, 網站的全球化也越來越重要, 而網站全球化的第一步就是要做多國語系, 此場次就是要說明, 如何快速完成網站的多國語系製作?
+               </p>
+               <p>
+                 多國語系的製作, 需要花很多時間去想變數名稱? 重複的內容
+                 需要花時間確認? 是否可以把相似的內容, 自動翻譯完成? 需
+                 要花多天到數個月的時間來製作? 網站已經製作完成, 想要用
+                 兩個人力, 要如何在一天內為網站加上多國語系? 為何所有程
+                 式語言都要支援 Gettext?
+               </p>
+               <p>
+                 介紹 使用 Gettext 來快速實做網站的多國語系, 以及 Gettext 相關軟體的使用.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>4</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:a02bfc40-a4e6-3837-a527-d51c35287ece</agenda:track>
+    <agenda:start>2010-08-14T14:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T15:00:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:13c54ec2-8257-3342-a73b-a75bebec6b2c"/>
+  </entry>
+  <entry>
+    <title>HTML5 – More Web for More people</title>
+    <id>urn:uuid:c3beb0fe-cf30-30a2-bd6f-c759b09bd021</id>
+    <updated>2010-08-13T14:34:02Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Charles 將探討 HTML5 及其他網際標準的發展，包括標準發
+                 展的過程、以及這些標準為網頁開發者乃至於其他應用軟體開
+                 發人員所提供的新世界。他也將描述以 HTML 為根基的開放網
+                 路技術如何讓各種人、以各種連接網路的設備、平台都能取
+                 用，增進應用軟體的使用體驗。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>0</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:dc2c9542-cc15-3a4a-971b-930b9198b73f</agenda:track>
+    <agenda:start>2010-08-14T09:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T10:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:df7a672b-14b3-334d-9c22-8896c399f66e"/>
+  </entry>
+  <entry>
+    <title>Road to GNOME 3</title>
+    <id>urn:uuid:5f747247-b6e6-35d1-9093-9b44a80e9415</id>
+    <updated>2010-08-13T14:35:34Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 The GNOME project began in 1997 and version 1.0 was
+                 released in March,1999. GNOME 2.0 followed in June,
+                 2002. After eight years, GNOME 2.30 has recently been
+                 released. The evolutionary time-based release
+                 schedule enabled the project to progress in an
+                 evolutionary way for years, and the cumulated changes
+                 are huge.  Now the GNOME community is on the cusp of
+                 releasing GNOME 3.0. In this talk, we will discuss
+                 the work done in GNOME 2.x which led to thenew major
+                 release and also the many new technologies that will
+                 be introduced in GNOME 3.0.  New GNOME 3.0
+                 technologies that will be discussed in this talk
+                 includeGTK+ 3.0, GNOME Shell, Clutter,
+                 Dconf/GSettings, and more.
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>0</agenda:room>
+    <agenda:lang>English</agenda:lang>
+    <agenda:track>urn:uuid:dc2c9542-cc15-3a4a-971b-930b9198b73f</agenda:track>
+    <agenda:start>2010-08-15T09:30:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T10:30:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:96e5e9fb-a1ac-3976-9c5b-3c3e024b2409"/>
+  </entry>
+  <entry>
+    <title>Qt 應用於 Meego 開源生態系統</title>
+    <id>urn:uuid:6be90fdc-dfc0-3d98-a750-2f9c33f7a536</id>
+    <updated>2010-08-13T14:37:09Z</updated>
+    <summary>
+      <![CDATA[
+               <p>
+                 Qt框架已經持續16年為致力於多個平臺上開發應用和用戶介面
+                 的開發者，提供便利的開發工具和直觀的應用開發介面。Qt已
+                 經成為KDE的基礎，以及跨越70多個行業數以萬計的開源和商
+                 業應用的基礎。本文將從應用開發者到終端設備製造商等不同
+                 角度，介紹Qt將為Meego平臺和其開源生態環境所帶來優勢。
+               </p>
+               ]]>
+    </summary>
+    <agenda:room>0</agenda:room>
+    <agenda:lang>Chinese</agenda:lang>
+    <agenda:track>urn:uuid:dc2c9542-cc15-3a4a-971b-930b9198b73f</agenda:track>
+    <agenda:start>2010-08-14T13:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-14T13:45:00+08:00</agenda:end>
+    <agenda:speaker id="urn:uuid:23835a3a-be5c-3a5e-a75d-911cbda0ebda"/>
+  </entry>
   <entry>
     <title>Be "Android"</title>
     <id>urn:uuid:4320ee99-5241-3733-b2a4-6412f18431a8</id>

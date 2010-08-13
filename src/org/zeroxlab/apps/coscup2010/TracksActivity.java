@@ -28,11 +28,8 @@ public class TracksActivity extends ListActivity
         super.onCreate(savedInstance);
         setContentView(R.layout.tracks);
 
-        // DatabaseHelper db = new DatabaseHelper(this);
-        // db.sync();
-
         TextView title = (TextView)findViewById(R.id.action_bar_title);
-        title.setText("Session Tracks");
+        title.setText(R.string.title_tracks);
 
         final ImageButton btn_home = (ImageButton) findViewById(R.id.btn_home);
         btn_home.setOnClickListener(new View.OnClickListener() {

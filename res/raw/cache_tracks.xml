@@ -3,11 +3,43 @@
 
   <title>COSCUP 2010 Tracks</title>
   <link href="http://coscup.org/2010/zh-tw/program/" />
-  <updated>2010-08-11T09:43:07Z</updated>
+  <updated>2010-08-13T11:18:39Z</updated>
   <author>
     <name>Kan-Ru Chen</name>
   </author>
   <id>urn:uuid:8a3cc141-7570-3f6d-850d-924a0cea15b1</id>
+
+  <entry>
+    <title><![CDATA[HTML5 & Web Technology]]></title>
+    <id>urn:uuid:1864c358-0711-3cd4-8ac5-eca2e56b3d61</id>
+    <updated>2010-08-13T11:19:02Z</updated>
+    <summary>
+    </summary>
+  </entry>
+
+  <entry>
+    <title>GNOME: Generic Topics</title>
+    <id>urn:uuid:4575ec29-6c75-3f0d-8edc-f18c2872c49b</id>
+    <updated>2010-08-13T11:19:34Z</updated>
+    <summary>
+    </summary>
+  </entry>
+
+  <entry>
+    <title>Web Back-end</title>
+    <id>urn:uuid:1cd994ce-855d-38c5-a133-2b0f5014772a</id>
+    <updated>2010-08-13T11:20:32Z</updated>
+    <summary>
+    </summary>
+  </entry>
+
+  <entry>
+    <title><![CDATA[FLOSS & Digital Art]]></title>
+    <id>urn:uuid:6223b955-77f6-3ec4-8dd8-166755e06b86</id>
+    <updated>2010-08-13T11:21:08Z</updated>
+    <summary>
+    </summary>
+  </entry>
 
   <entry>
     <title><![CDATA[FLOSS & Device]]></title>
@@ -18,9 +50,49 @@
   </entry>
 
   <entry>
-    <title><![CDATA[HTML5 & Web Technology]]></title>
-    <id>urn:uuid:1864c358-0711-3cd4-8ac5-eca2e56b3d61</id>
-    <updated>2010-08-11T22:27:20Z</updated>
+    <title>FLOSS Communities</title>
+    <id>urn:uuid:46e8a463-05f6-3771-a78d-8cee8fdeb8b2</id>
+    <updated>2010-08-13T11:22:06Z</updated>
+    <summary>
+    </summary>
+  </entry>
+
+  <entry>
+    <title>Art of Coding</title>
+    <id>urn:uuid:a02bfc40-a4e6-3837-a527-d51c35287ece</id>
+    <updated>2010-08-13T11:22:33Z</updated>
+    <summary>
+    </summary>
+  </entry>
+  
+  <entry>
+    <title>FLOSS Business, Legally</title>
+    <id>urn:uuid:282bfbce-10f8-396c-bb96-fac3987d15c3</id>
+    <updated>2010-08-13T11:23:05Z</updated>
+    <summary>
+    </summary>
+  </entry>
+
+  <entry>
+    <title>User Experience in FLOSS</title>
+    <id>urn:uuid:4c26dad5-d1fc-3471-9dc7-f716a4d7147a</id>
+    <updated>2010-08-13T11:23:32Z</updated>
+    <summary>
+    </summary>
+  </entry>
+
+  <entry>
+    <title>GNOME Accessibility</title>
+    <id>urn:uuid:b22cf6a2-87bc-3544-b3bc-652d8733c89d</id>
+    <updated>2010-08-13T11:24:01Z</updated>
+    <summary>
+    </summary>
+  </entry>
+
+  <entry>
+    <title>KeyNote</title>
+    <id>urn:uuid:dc2c9542-cc15-3a4a-971b-930b9198b73f</id>
+    <updated>2010-08-13T14:48:59Z</updated>
     <summary>
     </summary>
   </entry>

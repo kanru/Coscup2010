@@ -105,14 +105,14 @@ public class SessionActivity extends TabActivity {
         TabHost.TabSpec spec;
 
         tab = new TabView(this);
-        tab.setText("Summary");
-        TextView summary = (TextView)findViewById(R.id.session_summary);
-        summary.setText(Html.fromHtml(cursor.getString(cursor.getColumnIndex(Sessions.SUMMARY))));
+        tab.setText(R.string.tab_summary);
+        TextView summary = (TextView)findViewById(R.id.session_summary_text);
+        String summary_text = cursor.getString(cursor.getColumnIndex(Sessions.SUMMARY));
         spec = tabHost.newTabSpec("summary").setIndicator(tab).setContent(R.id.session_summary);
         tabHost.addTab(spec);
 
         tab = new TabView(this);
-        tab.setText("Notes");
+        tab.setText(R.string.tab_notes);
         spec = tabHost.newTabSpec("notes").setIndicator(tab).setContent(R.id.noimpl);
         tabHost.addTab(spec);
 
@@ -126,11 +126,11 @@ public class SessionActivity extends TabActivity {
         };
         cursor = getContentResolver().query(Uri.withAppendedPath(uri, "speakers"),
                                             columns, null, null, null);
-        StringBuilder summary_string = new StringBuilder(summary.getText());
+        StringBuilder summary_string = new StringBuilder(summary_text);
         while (cursor.moveToNext()) {
             // FIXME, L10N
             if (cursor.isFirst())
-                summary_string.append("<p><h3>Speakers</p></h3>");
+                summary_string.append("<p><h3>"+getResources().getString(R.string.speakers)+"</p></h3>");
             summary_string.append("<p><h3>");
             summary_string.append(cursor.getString(cursor.getColumnIndex(Speakers.NAME)));
             summary_string.append("</h3></p><p>");

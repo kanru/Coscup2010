@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">COSCUP 2010</string>
+  <string name="room1">國際會議廳</string>
+  <string name="room2">第一會議室</string>
+  <string name="room3">第二會議室</string>
+  <string name="room4">第三會議室</string>
+  <string name="room_all">全部會議室</string>
+  <string name="search_hint">搜尋議程</string>
+  <string name="btn_tracks">議程摘要</string>
+  <string name="btn_map">地圖</string>
+  <string name="btn_next">接下來的議程</string>
+  <string name="btn_starred">我的最愛</string>
+  <string name="title_tracks">議程主題</string>
+  <string name="tab_summary">摘要</string>
+  <string name="tab_sessions">議程</string>
+  <string name="tab_notes">筆記</string>
+  <string name="session_not_found">找不到任何議程</string>
+  <string name="not_implemented">賞個 Patch 吧</string>
+  <string name="next_sessions">接下來的議程</string>
+  <string name="starred_sessions">我的最愛</string>
+  <string name="search_sessions">搜尋議程</string>
+  <string name="speakers">講者介紹</string>
+</resources>

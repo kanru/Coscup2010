@@ -21,18 +21,23 @@
           android:id="@android:id/tabcontent"
           android:layout_width="fill_parent"
           android:layout_height="fill_parent">
-        <TextView android:id="@+id/session_summary"
+        <ScrollView android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/session_summary">
+        <TextView android:id="@+id/session_summary_text"
                   android:layout_width="fill_parent"
                   android:layout_height="fill_parent"
                   android:padding="5dp"
+                  android:autoLink="web"
                   />
+        </ScrollView>
         <TextView android:id="@+id/noimpl"
                   android:layout_width="fill_parent"
                   android:layout_height="fill_parent"
                   android:padding="5dp"
                   android:gravity="center"
                   android:textStyle="bold"
-                  android:text="Not Implemented"
+                  android:text="@string/not_implemented"
                   />
       </FrameLayout>
     </LinearLayout>

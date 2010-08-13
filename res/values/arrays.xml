@@ -4,11 +4,29 @@
       <item>@drawable/ic_track_default</item>
       <item>@drawable/ic_track1</item>
       <item>@drawable/ic_track2</item>
+      <item>@drawable/ic_track3</item>
+      <item>@drawable/ic_track4</item>
+      <item>@drawable/ic_track5</item>
+      <item>@drawable/ic_track6</item>
+      <item>@drawable/ic_track7</item>
+      <item>@drawable/ic_track8</item>
+      <item>@drawable/ic_track9</item>
+      <item>@drawable/ic_track10</item>
+      <item>@drawable/ic_track_default</item>
     </array>
     <array name="track_colors">
       <item>#FF0A0A0A</item>
-      <item>#FF000070</item>
-      <item>#FFFFA000</item>
+      <item>#ffffcc00</item>
+      <item>#ffffa000</item>
+      <item>#ffa0892c</item>
+      <item>#ffd38d5f</item>
+      <item>#ff37c8ab</item>
+      <item>#ff71c837</item>
+      <item>#ff7137c8</item>
+      <item>#ff5fd38d</item>
+      <item>#ff87deaa</item>
+      <item>#ffd35f5f</item>
+      <item>#FF0A0A0A</item>
     </array>
     <array name="rooms">
       <item>@string/room_all</item>

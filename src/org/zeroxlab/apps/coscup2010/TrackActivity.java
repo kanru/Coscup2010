@@ -57,14 +57,14 @@ public class TrackActivity extends TabActivity {
         TabHost.TabSpec spec;
 
         tab = new TabView(this);
-        tab.setText("Summary");
+        tab.setText(R.string.tab_summary);
         TextView summary = (TextView)findViewById(R.id.track_summary);
         summary.setText(Html.fromHtml(cursor.getString(cursor.getColumnIndex(Tracks.SUMMARY))));
         spec = tabHost.newTabSpec("summary").setIndicator(tab).setContent(R.id.track_summary);
         tabHost.addTab(spec);
 
         tab = new TabView(this);
-        tab.setText("Sessions");
+        tab.setText(R.string.tab_sessions);
         intent = new Intent(Intent.ACTION_VIEW,
                             Uri.withAppendedPath(uri, "sessions"),
                             this,

@@ -68,8 +68,7 @@ public class LauncherActivity extends Activity
                     Intent intent = new Intent(Intent.ACTION_VIEW,
                                                Uri.withAppendedPath(Sessions.CONTENT_URI, "next"));
                     intent.setClass(LauncherActivity.this, SessionsActivity.class);
-                    // FIXME, L10N
-                    intent.putExtra("title", "Following Sessions");
+                    intent.putExtra("title", R.string.next_sessions);
                     startActivity(intent);
                 }
             });
@@ -79,8 +78,7 @@ public class LauncherActivity extends Activity
                     Intent intent = new Intent(Intent.ACTION_VIEW,
                                                Uri.withAppendedPath(Sessions.CONTENT_URI, "starred"));
                     intent.setClass(LauncherActivity.this, SessionsActivity.class);
-                    // FIXME, L10N
-                    intent.putExtra("title", "Starred Sessions");
+                    intent.putExtra("title", R.string.starred_sessions);
                     startActivity(intent);
                 }
             });
