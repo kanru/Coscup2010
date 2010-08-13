@@ -12,6 +12,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ListView;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.SimpleCursorAdapter;
@@ -32,6 +33,15 @@ public class TracksActivity extends ListActivity
 
         TextView title = (TextView)findViewById(R.id.action_bar_title);
         title.setText("Session Tracks");
+
+        final ImageButton btn_home = (ImageButton) findViewById(R.id.btn_home);
+        btn_home.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    Intent intent = new Intent();
+                    intent.setClass(TracksActivity.this, LauncherActivity.class);
+                    startActivity(intent);
+                }
+            });
 
         String[] columns = new String[] {
             Tracks._ID,

@@ -9,6 +9,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -19,6 +20,16 @@ public class SessionsActivity extends ListActivity {
     public void onCreate(Bundle savedInstance) {
         super.onCreate(savedInstance);
         setContentView(R.layout.sessions);
+
+        final ImageButton btn_home = (ImageButton) findViewById(R.id.btn_home);
+        btn_home.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    Intent intent = new Intent();
+                    intent.setClass(SessionsActivity.this, LauncherActivity.class);
+                    startActivity(intent);
+                }
+            });
+
         Intent intent = getIntent();
         if (intent.hasExtra("title")) {
             TextView title = (TextView)findViewById(R.id.action_bar_title);

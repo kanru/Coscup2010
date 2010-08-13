@@ -13,6 +13,7 @@ import android.text.Html;
 import android.view.View;
 import android.view.Gravity;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 import android.widget.TextView;
@@ -23,6 +24,15 @@ public class TrackActivity extends TabActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.track);
+
+        final ImageButton btn_home = (ImageButton) findViewById(R.id.btn_home);
+        btn_home.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    Intent intent = new Intent();
+                    intent.setClass(TrackActivity.this, LauncherActivity.class);
+                    startActivity(intent);
+                }
+            });
 
         Intent intent = getIntent();
         Uri uri = intent.getData();

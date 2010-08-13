@@ -7,6 +7,7 @@
                   android:layout_height="45dp"
                   >
       <ImageButton style="@style/Widget.Transparent"
+                   android:id="@+id/btn_home"
                    android:src="@drawable/ic_btn_home"
                    android:layout_width="45dp"
                    android:layout_height="fill_parent"

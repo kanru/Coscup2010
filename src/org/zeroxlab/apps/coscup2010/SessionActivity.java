@@ -19,6 +19,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TabHost.TabSpec;
 import android.widget.TabHost;
@@ -34,6 +35,15 @@ public class SessionActivity extends TabActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.session);
+
+        final ImageButton btn_home = (ImageButton) findViewById(R.id.btn_home);
+        btn_home.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    Intent intent = new Intent();
+                    intent.setClass(SessionActivity.this, LauncherActivity.class);
+                    startActivity(intent);
+                }
+            });
 
         Intent intent = getIntent();
         Uri uri = intent.getData();
