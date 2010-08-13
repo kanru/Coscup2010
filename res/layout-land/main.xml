@@ -19,21 +19,6 @@
             android:textStyle="bold"
             android:textColor="#ff007eff"
             android:text="Sessions" />
-    <Button android:id="@+id/btn_map"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:drawableTop="@drawable/ic_map"
-            android:background="#00ffffff"
-            android:textSize="@dimen/font_size_large"
-            android:textStyle="bold"
-            android:textColor="#ff007eff"
-            android:text="Map" />
-  </LinearLayout>>
-  <LinearLayout android:layout_width="fill_parent"
-                  android:layout_height="wrap_content"
-                  android:padding="10dp">
     <Button android:id="@+id/btn_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -56,5 +41,16 @@
             android:textStyle="bold"
             android:textColor="#ff007eff"
             android:text="Starred" />
+    <Button android:id="@+id/btn_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_map"
+            android:background="#00ffffff"
+            android:textSize="@dimen/font_size_large"
+            android:textStyle="bold"
+            android:textColor="#ff007eff"
+            android:text="Map" />
   </LinearLayout>>
 </LinearLayout>
