@@ -27,6 +27,7 @@
                 />
       <View style="@style/Widget.Separator" />
       <ImageButton style="@style/Widget.Transparent"
+                   android:id="@+id/btn_search"
                    android:src="@drawable/ic_btn_search"
                    android:layout_width="45dp"
                    android:layout_height="fill_parent"

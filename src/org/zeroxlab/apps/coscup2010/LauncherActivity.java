@@ -28,6 +28,12 @@ public class LauncherActivity extends Activity
                     db.sync();
                 }
             });
+        final ImageButton btn_search = (ImageButton) findViewById(R.id.btn_search);
+        btn_search.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    LauncherActivity.this.onSearchRequested();
+                }
+            });
         final Button btn_tracks = (Button) findViewById(R.id.btn_tracks);
         btn_tracks.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {

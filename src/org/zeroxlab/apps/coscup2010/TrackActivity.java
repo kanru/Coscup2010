@@ -33,6 +33,12 @@ public class TrackActivity extends TabActivity {
                     startActivity(intent);
                 }
             });
+        final ImageButton btn_search = (ImageButton) findViewById(R.id.btn_search);
+        btn_search.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    TrackActivity.this.onSearchRequested();
+                }
+            });
 
         Intent intent = getIntent();
         Uri uri = intent.getData();

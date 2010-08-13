@@ -19,10 +19,18 @@
     <activity android:name="TracksActivity" />
     <activity android:name="TrackListActivity" />
     <activity android:name="SessionActivity" />
-    <activity android:name="SessionsActivity" />
+    <activity android:name="SessionsActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.SEARCH" />
+      </intent-filter>
+      <meta-data android:name="android.app.searchable"
+                 android:resource="@xml/searchable"/>
+    </activity>
     <activity android:name="SessionListActivity" />
     <provider android:name="AgendaProvider"
               android:authorities="org.zeroxlab.apps.coscup2010.agenda"
               android:process=":agedna" />
+    <meta-data android:name="android.app.default_searchable"
+               android:value=".SessionsActivity" />
   </application>
 </manifest> 

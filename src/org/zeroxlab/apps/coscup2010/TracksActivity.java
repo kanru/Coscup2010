@@ -42,6 +42,12 @@ public class TracksActivity extends ListActivity
                     startActivity(intent);
                 }
             });
+        final ImageButton btn_search = (ImageButton) findViewById(R.id.btn_search);
+        btn_search.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    TracksActivity.this.onSearchRequested();
+                }
+            });
 
         String[] columns = new String[] {
             Tracks._ID,

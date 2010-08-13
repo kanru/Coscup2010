@@ -6,4 +6,5 @@
   <string name="room3">in Room 3</string>
   <string name="room4">in Room 4</string>
   <string name="room_all">in All Room</string>
+  <string name="search_hint">Search the sessions</string>
 </resources>

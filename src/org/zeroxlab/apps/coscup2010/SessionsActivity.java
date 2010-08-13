@@ -3,6 +3,7 @@ package org.zeroxlab.apps.coscup2010;
 import org.zeroxlab.apps.coscup2010.Agenda.Sessions;
 
 import android.app.ListActivity;
+import android.app.SearchManager;
 import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
@@ -29,14 +30,27 @@ public class SessionsActivity extends ListActivity {
                     startActivity(intent);
                 }
             });
+        final ImageButton btn_search = (ImageButton) findViewById(R.id.btn_search);
+        btn_search.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    SessionsActivity.this.onSearchRequested();
+                }
+            });
 
         Intent intent = getIntent();
         if (intent.hasExtra("title")) {
             TextView title = (TextView)findViewById(R.id.action_bar_title);
             title.setText(intent.getStringExtra("title"));
         }
+
+        String query = null;
+        if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
+            query = intent.getStringExtra(SearchManager.QUERY);
+            TextView title = (TextView)findViewById(R.id.action_bar_title);
+            title.setText("Search Sessions");
+        }
         Uri uri = getIntent().getData();
-        mAdapter = new SessionListAdapter(this, uri);
+        mAdapter = new SessionListAdapter(this, uri, query);
         setListAdapter(mAdapter);
     }
 

@@ -21,7 +21,7 @@ public class SessionListAdapter extends SimpleCursorAdapter
     Cursor mCursor;
     Activity mParent;
 
-    public SessionListAdapter(Context context, Uri uri) {
+    public SessionListAdapter(Context context, Uri uri, String query) {
         super(context, R.layout.session_view, null, null, null);
 
         String[] columns = new String[] {
@@ -33,7 +33,14 @@ public class SessionListAdapter extends SimpleCursorAdapter
             Sessions.ROOM,
         };
         mParent = (Activity)context;
-        mCursor = mParent.getContentResolver().query(uri, columns, null, null, null);
+        String where = Sessions.TITLE + " like ? or " +
+            Sessions.SUMMARY + " like ?";
+        if (query != null) {
+            query = "%"+query+"%";
+            mCursor = mParent.getContentResolver().query(Sessions.CONTENT_URI, columns, where, new String[] {query, query}, null);
+        } else {
+            mCursor = mParent.getContentResolver().query(uri, columns, null, null, null);
+        }
         mParent.startManagingCursor(mCursor);
 
         int[] to = new int[] { R.id.session_time_room, R.id.session_title, R.id.btn_star };

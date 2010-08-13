@@ -19,7 +19,7 @@ public class SessionListActivity extends ListActivity {
         super.onCreate(savedInstance);
         setContentView(R.layout.session_list_view);
         Uri uri = getIntent().getData();
-        mAdapter = new SessionListAdapter(this, uri);
+        mAdapter = new SessionListAdapter(this, uri, null);
         setListAdapter(mAdapter);
     }
 
