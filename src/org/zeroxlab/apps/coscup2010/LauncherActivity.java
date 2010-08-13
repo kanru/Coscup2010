@@ -23,10 +23,12 @@ public class LauncherActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        if (!getDatabasePath(DatabaseHelper.DATABASE_NAME).exists()) {
+        new Thread(new Runnable() {
+                public void run() {
                     DatabaseHelper db = new DatabaseHelper(LauncherActivity.this);
                     db.sync();
-        }
+                }
+            }).start();
 
         final ImageButton btn_refresh = (ImageButton) findViewById(R.id.btn_refresh);
         btn_refresh.setOnClickListener(new View.OnClickListener() {
