@@ -38,8 +38,8 @@ public class DatabaseHelper extends SQLiteOpenHelper implements ISyncAble {
     private static final String AGENDA_NAMESPACE = "http://schemas.0xlab.org/agenda";
 
     private static final int DATABASE_VERSION = 4;
-    private static final String DATABASE_NAME = "coscup.db";
 
+    public static final String DATABASE_NAME = "coscup.db";
     public static final String TRACKS_TABLE_NAME = "tracks";
     public static final String SPEAKERS_TABLE_NAME = "speakers";
     public static final String SESSIONS_TABLE_NAME = "sessions";
@@ -151,12 +151,16 @@ public class DatabaseHelper extends SQLiteOpenHelper implements ISyncAble {
                     }
                 });
         InputStream in = mContext.getResources().openRawResource(R.raw.cache_tracks);
+        db.beginTransaction();
         try {
             Xml.parse(in, Xml.Encoding.UTF_8, trackRoot.getContentHandler());
+            db.setTransactionSuccessful();
         } catch (IOException e) {
             Log.d(TAG, "", e);
         } catch (SAXException e) {
             Log.d(TAG, "", e);
+        } finally {
+            db.endTransaction();
         }
         db.close();
         return ISyncAble.SYNC_TIMEOUT;
@@ -252,12 +256,16 @@ public class DatabaseHelper extends SQLiteOpenHelper implements ISyncAble {
                     }
                 });
         InputStream in = mContext.getResources().openRawResource(R.raw.cache_sessions);
+        db.beginTransaction();
         try {
             Xml.parse(in, Xml.Encoding.UTF_8, sessionRoot.getContentHandler());
+            db.setTransactionSuccessful();
         } catch (IOException e) {
             Log.d(TAG, "", e);
         } catch (SAXException e) {
             Log.d(TAG, "", e);
+        } finally {
+            db.endTransaction();
         }
         db.close();
         return ISyncAble.SYNC_TIMEOUT;
@@ -305,12 +313,16 @@ public class DatabaseHelper extends SQLiteOpenHelper implements ISyncAble {
                     }
                 });
         InputStream in = mContext.getResources().openRawResource(R.raw.cache_speakers);
+        db.beginTransaction();
         try {
             Xml.parse(in, Xml.Encoding.UTF_8, speakerRoot.getContentHandler());
+            db.setTransactionSuccessful();
         } catch (IOException e) {
             Log.d(TAG, "", e);
         } catch (SAXException e) {
             Log.d(TAG, "", e);
+        } finally {
+            db.endTransaction();
         }
         db.close();
         return ISyncAble.SYNC_TIMEOUT;

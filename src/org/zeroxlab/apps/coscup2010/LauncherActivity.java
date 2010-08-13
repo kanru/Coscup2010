@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import java.io.File;
+
 public class LauncherActivity extends Activity
 {
     /** Called when the activity is first created. */
@@ -20,6 +22,11 @@ public class LauncherActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
+        if (!getDatabasePath(DatabaseHelper.DATABASE_NAME).exists()) {
+                    DatabaseHelper db = new DatabaseHelper(LauncherActivity.this);
+                    db.sync();
+        }
 
         final ImageButton btn_refresh = (ImageButton) findViewById(R.id.btn_refresh);
         btn_refresh.setOnClickListener(new View.OnClickListener() {
