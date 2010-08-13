@@ -75,7 +75,7 @@
   <entry>
     <title>Javascript in Linux Desktop</title>
     <id>urn:uuid:0e368fab-7db2-34e5-a2ff-fcea001e7832</id>
-    <updated>2010-08-13T12:17:59Z</updated>
+    <updated>2010-08-13T23:43:13Z</updated>
     <summary>
       <![CDATA[
       <p>自從網頁應用程式如 gmail, facebook platform 逐漸在電腦中佔有重
@@ -88,7 +88,7 @@
       Javascript in Desktop的火力展示！</p>
       ]]>
     </summary>
-    <agenda:room>2</agenda:room>
+    <agenda:room>3</agenda:room>
     <agenda:lang>Chinese</agenda:lang>
     <agenda:track>urn:uuid:4575ec29-6c75-3f0d-8edc-f18c2872c49b</agenda:track>
     <agenda:start>2010-08-15T16:00:00+08:00</agenda:start>
@@ -220,7 +220,7 @@
   <entry>
     <title>Building and Using a Memory Profiler</title>
     <id>urn:uuid:c04e1d3e-53de-32cd-a960-bcdd44af8034</id>
-    <updated>2010-08-13T12:40:02Z</updated>
+    <updated>2010-08-13T23:44:15Z</updated>
     <summary>
       <![CDATA[
                <p>This talks explains and demonstrates how the GNOME
@@ -231,8 +231,8 @@
     <agenda:room>3</agenda:room>
     <agenda:lang>English</agenda:lang>
     <agenda:track>urn:uuid:4575ec29-6c75-3f0d-8edc-f18c2872c49b</agenda:track>
-    <agenda:start>2010-08-14T11:00:00+08:00</agenda:start>
-    <agenda:end>2010-08-14T11:30:00+08:00</agenda:end>
+    <agenda:start>2010-08-15T11:00:00+08:00</agenda:start>
+    <agenda:end>2010-08-15T11:30:00+08:00</agenda:end>
     <agenda:speaker id="urn:uuid:540f0b8f-f2f4-33dc-afd7-059ec3135467"/>
   </entry>
   <entry>
