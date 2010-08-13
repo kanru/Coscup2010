@@ -1,12 +1,14 @@
 package org.zeroxlab.apps.coscup2010;
 
 import android.app.Activity;
-import android.content.ComponentName;
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class LauncherActivity extends Activity
 {
@@ -30,6 +32,21 @@ public class LauncherActivity extends Activity
                     Intent intent = new Intent();
                     intent.setClass(LauncherActivity.this, TracksActivity.class);
                     startActivity(intent);
+                }
+            });
+        final Button btn_map = (Button) findViewById(R.id.btn_map);
+        btn_map.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    Intent intent = new Intent(Intent.ACTION_VIEW,
+                                               Uri.parse("geo:25.039406,121.616957?z=19"));
+                    // Intent intent = new Intent(LauncherActivity.this,
+                    //                            GmapActivity.class);
+                    try {
+                        startActivity(intent);
+                    } catch (ActivityNotFoundException e){
+                        Toast.makeText(LauncherActivity.this,
+                                       "Cannot open Map", Toast.LENGTH_LONG);
+                    }
                 }
             });
         // Intent intent = new Intent();
