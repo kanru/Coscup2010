@@ -7,6 +7,9 @@
     <item name="android:textColor">#ffffffff</item>
     <item name="android:background">#ff007eff</item>
   </style>
+  <style name="Widget.Transparent">
+    <item name="android:background">#00ffffff</item>
+  </style>
   <style name="Widget.Separator">
     <item name="android:background">#ffffffff</item>
     <item name="android:layout_width">1px</item>

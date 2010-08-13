@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal"
+    <LinearLayout style="@style/Widget"
+                  android:id="@+id/action_bar_home"
+                  android:orientation="horizontal"
                   android:layout_width="fill_parent"
                   android:layout_height="45dp"
                   >
-      <ImageButton style="@style/Widget"
+      <ImageButton style="@style/Widget.Transparent"
                    android:src="@drawable/ic_btn_home"
                    android:layout_width="45dp"
                    android:layout_height="fill_parent"
                    />
       <View style="@style/Widget.Separator" />
-      <TextView style="@style/Widget"
+      <TextView style="@style/Widget.Transparent"
                 android:id="@+id/action_bar_title"
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
@@ -23,7 +25,7 @@
                 android:layout_weight="1"
                 />
       <View style="@style/Widget.Separator" />
-      <ImageButton style="@style/Widget"
+      <ImageButton style="@style/Widget.Transparent"
                    android:src="@drawable/ic_btn_search"
                    android:layout_width="45dp"
                    android:layout_height="fill_parent"

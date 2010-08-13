@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.database.Cursor;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.Html;
@@ -71,6 +72,12 @@ public class SessionActivity extends TabActivity {
 
         TextView title = (TextView)findViewById(R.id.session_title);
         title.setText(cursor.getString(cursor.getColumnIndex(Sessions.TITLE)));
+
+        TypedArray colors = getResources().obtainTypedArray(R.array.track_colors);
+        View view = findViewById(R.id.action_bar_home);
+        view.setBackgroundColor(Color.parseColor(colors.getString(track.getInt(track.getColumnIndex(Tracks._ID)))));
+
+        track.close();
 
         TextView room = (TextView)findViewById(R.id.session_time_room);
         TypedArray rooms = getResources().obtainTypedArray(R.array.rooms);

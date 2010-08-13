@@ -4,10 +4,13 @@ import org.zeroxlab.apps.coscup2010.Agenda.Tracks;
 
 import android.app.TabActivity;
 import android.content.Intent;
+import android.content.res.TypedArray;
 import android.database.Cursor;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.net.Uri;
 import android.text.Html;
+import android.view.View;
 import android.view.Gravity;
 import android.widget.FrameLayout;
 import android.widget.TabHost;
@@ -54,6 +57,10 @@ public class TrackActivity extends TabActivity {
         tabHost.addTab(spec);
 
         tabHost.setCurrentTab(1);
+
+        TypedArray colors = getResources().obtainTypedArray(R.array.track_colors);
+        View view = findViewById(R.id.action_bar_home);
+        view.setBackgroundColor(Color.parseColor(colors.getString(cursor.getInt(cursor.getColumnIndex(Tracks._ID)))));
 
         cursor.close();
     }
