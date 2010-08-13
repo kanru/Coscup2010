@@ -5,7 +5,7 @@
   </style>
   <style name="Widget">
     <item name="android:textColor">#ffffffff</item>
-    <item name="android:background">#ff00bd00</item>
+    <item name="android:background">#ff007eff</item>
   </style>
   <style name="Widget.Separator">
     <item name="android:background">#ffffffff</item>

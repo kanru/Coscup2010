@@ -5,4 +5,19 @@
               android:layout_height="fill_parent"
               >
   <include layout="@layout/action_bar" />
+  <RelativeLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center_horizontal"
+                  android:padding="10dp">
+    <Button android:id="@+id/btn_tracks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:drawableTop="@drawable/ic_tracks"
+            android:background="#00ffffff"
+            android:textSize="@dimen/font_size_large"
+            android:textStyle="bold"
+            android:textColor="#ff007eff"
+            android:text="Sessions" />
+  </RelativeLayout>
 </LinearLayout>
