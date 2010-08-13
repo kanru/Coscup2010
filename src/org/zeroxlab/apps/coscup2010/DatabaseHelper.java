@@ -37,7 +37,7 @@ public class DatabaseHelper extends SQLiteOpenHelper implements ISyncAble {
     private static final String ATOM_NAMESPACE = "http://www.w3.org/2005/Atom";
     private static final String AGENDA_NAMESPACE = "http://schemas.0xlab.org/agenda";
 
-    private static final int DATABASE_VERSION = 4;
+    private static final int DATABASE_VERSION = 5;
 
     public static final String DATABASE_NAME = "coscup.db";
     public static final String TRACKS_TABLE_NAME = "tracks";
