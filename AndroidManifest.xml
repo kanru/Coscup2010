@@ -3,6 +3,7 @@
           package="org.zeroxlab.apps.coscup2010"
           android:versionCode="1"
           android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="8" />
   <application android:label="@string/app_name"
                android:icon="@drawable/icon"
                android:theme="@style/Coscup2010">
