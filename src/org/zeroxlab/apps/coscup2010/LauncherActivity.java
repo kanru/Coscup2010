@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
 
 public class LauncherActivity extends Activity
 {
@@ -13,8 +15,14 @@ public class LauncherActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        // DatabaseHelper db = new DatabaseHelper(this);
-        // db.sync();
+
+        final ImageButton btn_refresh = (ImageButton) findViewById(R.id.btn_refresh);
+        btn_refresh.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    DatabaseHelper db = new DatabaseHelper(LauncherActivity.this);
+                    db.sync();
+                }
+            });
         // Intent intent = new Intent();
         // intent.setClass(this, TrackListActivity.class);
         // startActivity(intent);

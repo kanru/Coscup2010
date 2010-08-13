@@ -9,15 +9,14 @@
     <activity android:name="LauncherActivity"
               android:label="@string/app_name"
               >
-    </activity>
-    <activity android:name="TrackListActivity" />
-    <activity android:name="SessionListActivity" />
-    <activity android:name="TracksActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:name="TrackListActivity" />
+    <activity android:name="SessionListActivity" />
+    <activity android:name="TracksActivity" />
     <activity android:name="TrackActivity" />
     <activity android:name="SessionActivity" />
     <provider android:name="AgendaProvider"

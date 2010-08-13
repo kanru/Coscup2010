@@ -18,6 +18,14 @@
             />
       <View style="@style/Widget.Separator" />
       <ImageButton style="@style/Widget"
+                   android:id="@+id/btn_refresh"
+                   android:src="@drawable/ic_btn_refresh"
+                   android:layout_width="45dp"
+                   android:layout_height="fill_parent"
+                   />
+      <View style="@style/Widget.Separator" />
+      <ImageButton style="@style/Widget"
+                   android:id="@+id/btn_search"
                    android:src="@drawable/ic_btn_search"
                    android:layout_width="45dp"
                    android:layout_height="fill_parent"
