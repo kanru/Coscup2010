@@ -91,7 +91,7 @@ public class AgendaProvider extends ContentProvider {
             break;
         case SESSIONS_NEXT:
             qb.setTables(DatabaseHelper.SESSIONS_TABLE_NAME);
-            qb.appendWhere(Sessions.END + " > datetime('now')");
+            qb.appendWhere("datetime("+Sessions.END+") > datetime('now')");
             if (orderBy == null)
                 orderBy = Sessions.DEFAULT_SORT_ORDER;
             break;
